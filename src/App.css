@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(66,66,66);
+  color: whitesmoke;
 }
 .App {
   text-align: center;
@@ -25,7 +27,18 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+ 
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color:whitesmoke;
 }
 
 .App-link {

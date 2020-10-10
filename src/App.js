@@ -11,13 +11,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="navbar">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/work">Work</Link>
         <Link to="/Contact">Contact</Link>
       </div>
-        <h1>Freelance Site</h1>
         <Switch>
           <Route component={Home} exact path="/" />
           <Route component={About} exact path="/about" />
