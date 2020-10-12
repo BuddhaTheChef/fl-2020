@@ -12,10 +12,15 @@ function App() {
   return (
     <div className="App">
       <div className="navbar">
+        <div className="header-nav">
+        <h3>Wi-tech</h3>
+        </div>
+        <div className="link-nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/work">Work</Link>
         <Link to="/Contact">Contact</Link>
+        </div>
       </div>
         <Switch>
           <Route component={Home} exact path="/" />

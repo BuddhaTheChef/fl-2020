@@ -4,7 +4,7 @@ export default class Work extends Component {
     render() {
         return (
             <div>
-                <h1>Work</h1>
+                <h1 className="title">Work</h1>
             </div>
         )
     }
