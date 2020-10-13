@@ -90,12 +90,40 @@ a {
 
 .diagonal {
   position: absolute;
-    width: 241vw;
-    height: 600px;
-    bottom: 14px;
-    transform: rotate(-20deg);
-    background: whitesmoke;
-    z-index: 1;
+  width: 241vw;
+  height: 600px;
+  bottom: 14px;
+  transform: rotate(-20deg);
+  background: whitesmoke;
+  z-index: 1;
+}
+
+.main-about-div {
+  width: 100%;
+  display: flex;
+}
+
+.header-about-div-l {
+width: 50%;
+height: 95vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(66,66,66);
+}
+
+.header-about-div-r {
+ width: 50%;
+ height: 95vh;
+ display: flex;
+justify-content: center;
+align-items: center;
+background-color: turquoise;
+}
+
+.lower-about-div {
+  background-color: whitesmoke;
+  height: 60vh;
 }
 
 
