@@ -49,7 +49,7 @@ body {
   padding: 40px;
 }
 .link-nav {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
 }
@@ -123,6 +123,27 @@ background-color: turquoise;
 
 .lower-about-div {
   background-color: whitesmoke;
+  height: 60vh;
+}
+
+
+.main-work-div {
+  width: 100%;
+  display: flex;
+}
+
+.header-work-div {
+width: 50%;
+height: 65vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(66,66,66);
+}
+
+.lower-work-div {
+  background-color: whitesmoke;
+  color: black;
   height: 60vh;
 }
 
