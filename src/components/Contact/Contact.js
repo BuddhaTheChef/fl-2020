@@ -4,7 +4,12 @@ export default class Contact extends Component {
     render() {
         return (
             <div>
-                <h1 className="title">Contact</h1>
+            <div className="main-contact-div">
+                <div className="header-contact-div"><p style={{padding: '95px', fontSize: '40px'}}>Contact</p></div>
+            </div>
+            <div className="lower-contact-div">
+                <h3>Content here</h3>
+            </div>
             </div>
         )
     }
