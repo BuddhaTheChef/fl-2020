@@ -163,9 +163,15 @@ align-items: center;
 background-color: rgb(116, 41, 126);
 }
 
-.lower-contact-div {
+.mid-contact-div {
   color: whitesmoke;
   height: 60vh;
+}
+
+.lower-contact-div {
+  color: black;
+  height: 60vh;
+  background-color: whitesmoke;
 }
 
 
