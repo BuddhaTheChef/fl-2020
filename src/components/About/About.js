@@ -9,7 +9,7 @@ export default class About extends Component {
                 <div className="header-about-div-r"><h1 className="title">About</h1></div>
             </div>
             <div className="lower-about-div">
-                    Other content
+                    <h1 style={{color:'black', display: 'inline'}}>Other content</h1>
             </div>
             </div>
         )

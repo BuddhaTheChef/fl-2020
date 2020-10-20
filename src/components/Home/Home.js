@@ -10,9 +10,13 @@ export default class Home extends Component {
             <div class="home-container">
               
             </div>
-            <div class="home-img-container"></div>
+            <div class="home-img-container">
+            </div>
             <div class="diagonal"></div>
           </section>
+        </div>
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
         </div>
       </div>
     );
