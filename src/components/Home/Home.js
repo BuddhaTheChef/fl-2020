@@ -18,6 +18,14 @@ export default class Home extends Component {
         <div className="home-lower-div">
             <h1>Other Content</h1>
         </div>
+
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
+        </div>
+
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
+        </div>
       </div>
     );
   }
