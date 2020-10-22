@@ -74,6 +74,17 @@ a {
     left: 200px;
 }
 
+.home-title {
+  position: absolute;
+  top: 240px;
+  left:200px;
+  font-size: 30px;
+}
+
+.home-title h4 {
+  font-size: 20px;
+}
+
 .home-container {
   display: flex;
   flex-direction: row;
@@ -136,8 +147,9 @@ background-color: turquoise;
 }
 
 .lower-about-div {
-  background-color: whitesmoke;
+  background-color: gray;
   height: 60vh;
+  border: solid black 2px;
 }
 
 

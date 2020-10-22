@@ -11,6 +11,9 @@ export default class About extends Component {
             <div className="lower-about-div">
                     <h1 style={{color:'black', display: 'inline'}}>Other content</h1>
             </div>
+            <div className="lower-about-div">
+                    <h1 style={{color:'black', display: 'inline'}}>Other content</h1>
+            </div>
             </div>
         )
     }

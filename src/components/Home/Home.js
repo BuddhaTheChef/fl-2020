@@ -5,7 +5,10 @@ export default class Home extends Component {
     return (
       <div style={{ backgroundColor: "whitesmoke", height: "300vh" }}>
         <div className="home-head">
-        <h1>Home Page</h1>
+        <div className="home-title">
+          <h3>Aj Wietecha II - Freelance Contractor</h3>
+          <h4>Providing Solutions for Small Businesses, Independent Contractors and Coorperations</h4>
+        </div>
           <section id="home">
             <div class="home-container">
               
