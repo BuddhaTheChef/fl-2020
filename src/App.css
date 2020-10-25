@@ -180,9 +180,10 @@ background-color: rgb(66,66,66);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
   background-color: indianred;
-  margin: 20px auto;
+  margin: 200px auto 250px auto;
+  margin-bottom: 300px;
 }
 
 /* Contact Page */
