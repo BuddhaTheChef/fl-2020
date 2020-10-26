@@ -18,6 +18,7 @@ export default class Home extends Component {
             <div class="diagonal"></div>
           </section>
         </div>
+        <div className="main-lower-div">
         <div className="home-lower-div">
             <h1>Other Content</h1>
         </div>
@@ -28,6 +29,24 @@ export default class Home extends Component {
 
         <div className="home-lower-div">
             <h1>Other Content</h1>
+        </div>
+        </div>
+        <div className="home-lower-subdiv">
+          <h1>Other content</h1>
+        </div>
+
+        <div className="main-lower-div">
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
+        </div>
+
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
+        </div>
+
+        <div className="home-lower-div">
+            <h1>Other Content</h1>
+        </div>
         </div>
       </div>
     );

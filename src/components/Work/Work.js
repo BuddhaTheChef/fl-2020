@@ -11,6 +11,7 @@ export default class Work extends Component {
                 <div className="work-div-subcontent"><h4>Work 1</h4></div>
                 <div className="work-div-subcontent"><h4>Work 2</h4></div>
                 <div className="work-div-subcontent"><h4>Work 3</h4></div>
+                <div className="work-div-subcontent"><h4>Work 4</h4></div>
             </div>
             </div>
         )

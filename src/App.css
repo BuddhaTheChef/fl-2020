@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: system-ui;
 }
 
 body {
@@ -111,15 +112,30 @@ a {
   z-index: 1;
 }
 
+.main-lower-div {
+  display: flex;
+}
+
 .home-lower-div {
   display: flex;
   background-color: grey;
-  width: 90%;
+  width: 29%;
   margin: 90px auto;
-  height: 400px;
+  height: 500px;
   z-index: 10;
   position: relative;
 }
+
+.home-lower-subdiv {
+  display: flex;
+  background-color: grey;
+  width: 70%;
+  margin: 10px auto;
+  height: 200px;
+  z-index: 10;
+  position: relative;
+}
+
 
 /* About page  */
 
@@ -205,12 +221,18 @@ background-color: rgb(116, 41, 126);
 .mid-contact-div {
   color: whitesmoke;
   height: 60vh;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .lower-contact-div {
   color: black;
   height: 60vh;
   background-color: whitesmoke;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
