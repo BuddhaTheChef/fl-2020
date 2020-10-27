@@ -8,7 +8,12 @@ export default class Work extends Component {
                 <div className="header-work-div"><p style={{padding: '95px', fontSize: '40px'}}>Work</p></div>
             </div>
             <div className="lower-work-div">
-                <div className="work-div-subcontent"><h4>Work 1</h4></div>
+            <div class="diagonal-box">
+	        <div class="content"> <div className="work-div-subcontent"><h4>Work 1</h4></div> </div>
+            </div>
+            <div class="diagonal-box-rev">
+	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 2</h4></div> </div>
+            </div>
                 <div className="work-div-subcontent"><h4>Work 2</h4></div>
                 <div className="work-div-subcontent"><h4>Work 3</h4></div>
                 <div className="work-div-subcontent"><h4>Work 4</h4></div>

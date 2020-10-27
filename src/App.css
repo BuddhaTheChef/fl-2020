@@ -192,7 +192,7 @@ background-color: rgb(66,66,66);
 }
 
 .work-div-subcontent {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,6 +201,56 @@ background-color: rgb(66,66,66);
   margin: 200px auto 250px auto;
   margin-bottom: 300px;
 }
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #6303B1, #ff0099);
+  transform: skewY(-11deg);
+  position: relative;
+} 
+
+.diagonal-box:before {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, #654ea3, #eaafc8); 	
+    transform: skewY(-11deg);
+}
+.content { 	
+	max-width: 80em;
+    margin: 200px auto; 
+    transform: skewY(11deg);
+    position: relative;
+    height: 500px;
+}
+
+.diagonal-box-rev {
+  background-image: linear-gradient(45deg, #6303B1, #ff0099);
+  transform: skewY(11deg);
+  position: relative;
+} 
+
+.diagonal-box-rev:before {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, #654ea3, #eaafc8); 	
+    transform: skewY(11deg);
+}
+.content-rev { 	
+	max-width: 80em;
+    margin: 200px auto; 
+    transform: skewY(-11deg);
+    position: relative;
+    height: 500px;
+}
+
+
+
+
 
 /* Contact Page */
 
