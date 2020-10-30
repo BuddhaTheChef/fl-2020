@@ -14,9 +14,21 @@ export default class Work extends Component {
             <div class="diagonal-box-rev">
 	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 2</h4></div> </div>
             </div>
-                <div className="work-div-subcontent"><h4>Work 2</h4></div>
-                <div className="work-div-subcontent"><h4>Work 3</h4></div>
-                <div className="work-div-subcontent"><h4>Work 4</h4></div>
+            <div class="diagonal-box">
+	        <div class="content"> <div className="work-div-subcontent"><h4>Work 3</h4></div> </div>
+            </div>
+            <div class="diagonal-box-rev">
+	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 4</h4></div> </div>
+            </div>
+            <div class="diagonal-box">
+	        <div class="content"> <div className="work-div-subcontent"><h4>Work 5</h4></div> </div>
+            </div>
+            <div class="diagonal-box-rev">
+	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 6</h4></div> </div>
+            </div>
+            </div>
+            <div style={{backgroundColor: 'rgb(66,6,66)', height: '500px'}}>
+               Future footer
             </div>
             </div>
         )
