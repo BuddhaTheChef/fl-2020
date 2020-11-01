@@ -48,6 +48,9 @@ export default class Home extends Component {
             <h1>Other Content</h1>
         </div>
         </div>
+        <div style={{backgroundColor: 'rgb(66,6,66)', height: '500px'}}>
+               Future footer
+            </div>
       </div>
     );
   }
