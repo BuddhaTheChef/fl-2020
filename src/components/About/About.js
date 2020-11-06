@@ -27,7 +27,7 @@ export default class About extends Component {
             </div>
             </div>
 
-            <div style={{backgroundColor: 'rgb(66,6,66)', height: '500px'}}>
+            <div style={{backgroundColor: 'rgb(66,66,66)', height: '500px', padding:'60px'}}>
                Future footer
             </div>
 
