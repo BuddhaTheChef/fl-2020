@@ -12,7 +12,7 @@ export default class About extends Component {
             </div>
 
             <div className="main-about-div">
-            <div className="header-about-div-r">
+            <div className="header-about-div-r-1">
                     <h1 style={{color:'black', display: 'inline'}}>Other content</h1>
             </div>
             <div className="header-about-div-l-1">
@@ -24,7 +24,7 @@ export default class About extends Component {
             <div className="header-about-div-l-2">
             <div className="header-about-div-overlay"><h1 style={{display: 'inline'}}>Other content</h1></div>
             </div>
-            <div className="header-about-div-r">
+            <div className="header-about-div-r-2">
                     <h1 style={{color:'black', display: 'inline'}}>Other content</h1>
             </div>
             </div>

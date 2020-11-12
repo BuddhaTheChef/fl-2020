@@ -201,8 +201,26 @@ background-size: cover;
  display: flex;
 justify-content: center;
 align-items: center;
-background-color: turquoise;
+background-color: rgb(53, 53, 53);
 }
+
+.header-about-div-r-1 {
+  width: 50%;
+  height: 95vh;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: hsl(192, 87%, 24%);
+ }
+
+ .header-about-div-r-2 {
+  width: 50%;
+  height: 95vh;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: hsl(327, 88%, 31%);
+ }
 
 .lower-about-div {
   background-color: gray;
@@ -242,6 +260,10 @@ background-color: rgb(66,66,66);
   background-color: indianred;
   margin: 200px auto 250px auto;
   margin-bottom: 300px;
+  background-image: url('https://images.unsplash.com/photo-1531279550271-23c2a77a765c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .diagonal-box {
