@@ -9,22 +9,22 @@ export default class Work extends Component {
             </div>
             <div className="lower-work-div">
             <div class="diagonal-box">
-	        <div class="content"> <div className="work-div-subcontent"><h4>Work 1</h4></div> </div>
+	        <div class="content"><div className="work-div-subcontent-1"><h4>Work 1</h4></div> </div>
             </div>
             <div class="diagonal-box-rev">
-	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 2</h4></div> </div>
+	        <div class="content-rev"> <div className="work-div-subcontent-2"><h4>Work 2</h4></div> </div>
             </div>
             <div class="diagonal-box">
-	        <div class="content"> <div className="work-div-subcontent"><h4>Work 3</h4></div> </div>
+	        <div class="content"> <div className="work-div-subcontent-3"><h4>Work 3</h4></div> </div>
             </div>
             <div class="diagonal-box-rev">
-	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 4</h4></div> </div>
+	        <div class="content-rev"> <div className="work-div-subcontent-4"><h4>Work 4</h4></div> </div>
             </div>
             <div class="diagonal-box">
-	        <div class="content"> <div className="work-div-subcontent"><h4>Work 5</h4></div> </div>
+	        <div class="content"> <div className="work-div-subcontent-5"><h4>Work 5</h4></div> </div>
             </div>
             <div class="diagonal-box-rev">
-	        <div class="content-rev"> <div className="work-div-subcontent"><h4>Work 6</h4></div> </div>
+	        <div class="content-rev"> <div className="work-div-subcontent-6"><h4>Work 6</h4></div> </div>
             </div>
             </div>
             <div style={{backgroundColor: 'rgb(66,66,66)', height: '300px', padding:'60px'}}>
