@@ -447,6 +447,51 @@ background-size: cover;
 }
 
 
+/* footer */
+
+.main-footer-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sub-div-left {
+  width: 75%; 
+  display: flex;
+}
+
+.sub-footer-div-1 {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    width: 33%;
+}
+
+.sub-footer-div-2 {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    width: 33%;
+}
+
+.sub-footer-div-3 {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    width: 33%;
+}
+
+.sub-footer-div-4 {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+}
+
+
+
 .title {
   display: contents;
 }
