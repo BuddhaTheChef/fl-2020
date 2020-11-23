@@ -27,9 +27,6 @@ export default class Work extends Component {
 	        <div class="content-rev"> <div className="work-div-subcontent-6"><h4>Work 6</h4></div> </div>
             </div>
             </div>
-            <div style={{backgroundColor: 'rgb(66,66,66)', height: '300px', padding:'60px'}}>
-               Future footer
-            </div>
             </div>
         )
     }

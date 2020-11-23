@@ -7,6 +7,7 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route component={Work} exact path="/work" />
           <Route component={Contact} exact path="/contact" />
         </Switch>
+        <Footer/>
     </div>
   );
 }
