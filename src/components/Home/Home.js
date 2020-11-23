@@ -48,7 +48,7 @@ export default class Home extends Component {
             <h1>Other Content</h1>
         </div>
         </div>
-        <div style={{backgroundColor: 'rgb(66,66,66)', height: '300px', padding:'60px'}}>
+        <div style={{backgroundColor: 'rgb(66,66,66)', height: '250px', padding:'60px'}}>
                <div className="main-footer-div">
                  <div className="footer-sub-div-left">
                  <div className="sub-footer-div-1">
@@ -87,6 +87,7 @@ export default class Home extends Component {
                   </div>
                </div>
             </div>
+            <div style={{backgroundColor: 'rgb(30,30,30)', width: '100%', height: '50px', display: 'flex', alignItems: 'center',justifyContent: 'center'}}>Copyright 2020 ajwietecha</div>
       </div>
     );
   }
