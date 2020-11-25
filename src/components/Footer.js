@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
       return (
          <div>
-               <div style={{backgroundColor: 'rgb(66,66,66)', height: '250px', padding:'60px'}}>
+               <div style={{backgroundColor: 'rgb(66,66,66)', height: '250px', padding:'50px'}}>
                <div className="main-footer-div">
                  <div className="footer-sub-div-left">
                  <div className="sub-footer-div-1">
@@ -36,14 +37,14 @@ export default class Footer extends Component {
                   </div>
                   </div>
                  <div className="sub-footer-div-4">
-                   <h4>Twitter</h4>
-                   <h4>Instagram</h4>
-                   <h4>Facebook</h4>
-                   <h4>Twitch</h4>
+                   <Link href="#" class="fa fa-twitter" style={{fontSize: '40px'}}></Link>
+                   <Link href="#" class="fa fa-instagram" style={{fontSize: '40px'}}></Link>
+                   <Link href="#" class="fa fa-facebook" style={{fontSize: '40px'}}></Link>
+                   <Link href="#" class="fa fa-twitch" style={{fontSize: '40px'}}></Link>
                   </div>
                </div>
             </div>
-            <div style={{backgroundColor: 'rgb(30,30,30)', width: '100%', height: '50px', display: 'flex', alignItems: 'center',justifyContent: 'center'}}>Copyright 2020 ajwietecha</div>
+            <div style={{backgroundColor: 'rgb(30,30,30)', width: '100%', height: '50px', display: 'flex', alignItems: 'center',justifyContent: 'center'}}>&#169; ajwietecha 2020</div>
          </div>
       )
     }
