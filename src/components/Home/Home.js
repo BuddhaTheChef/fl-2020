@@ -19,33 +19,33 @@ export default class Home extends Component {
           </section>
         </div>
         <div className="main-lower-div">
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-1">
+            <h1>Ecommerce Websites</h1>
         </div>
 
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-2">
+            <h1>Graphic Design</h1>
         </div>
 
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-3">
+            <h1>Microservices</h1>
         </div>
         </div>
         <div className="home-lower-subdiv">
-          <h1>Other content</h1>
+          <h1>Technologies</h1>
         </div>
 
         <div className="main-lower-div">
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-4">
+            <h1>Full Stack Applications</h1>
         </div>
 
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-5">
+            <h1>Mobile Appications</h1>
         </div>
 
-        <div className="home-lower-div">
-            <h1>Other Content</h1>
+        <div className="home-lower-div-6">
+            <h1>Consulting</h1>
         </div>
         </div>
       </div>

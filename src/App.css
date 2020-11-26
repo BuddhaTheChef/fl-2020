@@ -116,7 +116,73 @@ a {
   display: flex;
 }
 
-.home-lower-div {
+.home-lower-div-1 {
+  display: flex;
+  background-color: grey;
+  width: 29%;
+  margin: 90px auto;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-lower-div-2 {
+  display: flex;
+  background-color: grey;
+  width: 29%;
+  margin: 90px auto;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-lower-div-3 {
+  display: flex;
+  background-color: grey;
+  width: 29%;
+  margin: 90px auto;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-lower-div-4 {
+  display: flex;
+  background-color: grey;
+  width: 29%;
+  margin: 90px auto;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-lower-div-5 {
+  display: flex;
+  background-color: grey;
+  width: 29%;
+  margin: 90px auto;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1495476479092-6ece1898a101?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-lower-div-6 {
   display: flex;
   background-color: grey;
   width: 29%;
