@@ -20,15 +20,21 @@ export default class Home extends Component {
         </div>
         <div className="main-lower-div">
         <div className="home-lower-div-1">
-            <h1>Ecommerce Websites</h1>
+          <div className="header-home-div-overlay">
+             <h1 style={{paddingLeft:"15px", textAlign: 'left'}}>Ecommerce Websites</h1>
+          </div>
         </div>
 
         <div className="home-lower-div-2">
-            <h1>Graphic Design</h1>
+          <div className="header-home-div-overlay">
+            <h1 style={{paddingLeft:"14px", textAlign: 'left'}}>Graphic Design</h1>
+          </div>
         </div>
 
         <div className="home-lower-div-3">
-            <h1>Microservices</h1>
+        <div className="header-home-div-overlay">
+            <h1 style={{paddingLeft:"14px", textAlign: 'left'}}>Microservices</h1>
+        </div>
         </div>
         </div>
         <div className="home-lower-subdiv">
@@ -37,15 +43,15 @@ export default class Home extends Component {
 
         <div className="main-lower-div">
         <div className="home-lower-div-4">
-            <h1>Full Stack Applications</h1>
+            <h1 style={{paddingLeft:"14px"}}>Full Stack Applications</h1>
         </div>
 
         <div className="home-lower-div-5">
-            <h1>Mobile Appications</h1>
+            <h1 style={{paddingLeft:"14px"}}>Mobile Appications</h1>
         </div>
 
         <div className="home-lower-div-6">
-            <h1>Consulting</h1>
+            <h1 style={{paddingLeft:"14px"}}>Consulting</h1>
         </div>
         </div>
       </div>
