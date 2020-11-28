@@ -43,15 +43,21 @@ export default class Home extends Component {
 
         <div className="main-lower-div">
         <div className="home-lower-div-4">
-            <h1 style={{paddingLeft:"14px"}}>Full Stack Applications</h1>
+        <div className="header-home-div-overlay">
+            <h1 style={{paddingLeft:"14px",textAlign: 'left'}}>Full Stack Applications</h1>
+          </div>
         </div>
 
         <div className="home-lower-div-5">
-            <h1 style={{paddingLeft:"14px"}}>Mobile Appications</h1>
+        <div className="header-home-div-overlay">
+            <h1 style={{paddingLeft:"14px",textAlign: 'left'}}>Mobile Appications</h1>
+            </div>
         </div>
 
         <div className="home-lower-div-6">
-            <h1 style={{paddingLeft:"14px"}}>Consulting</h1>
+        <div className="header-home-div-overlay">
+            <h1 style={{paddingLeft:"14px",textAlign: 'left'}}>Consulting</h1>
+            </div>
         </div>
         </div>
       </div>
