@@ -205,13 +205,20 @@ a {
 
 .home-lower-subdiv {
   display: flex;
-  background-color: grey;
+  background-color: rgb(66,66,66);
   width: 70%;
-  justify-content: center;
+  flex-direction: column;
   margin: 10px auto;
   height: 200px;
   z-index: 10;
   position: relative;
+}
+
+.home-lower-inner-div {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
 }
 
 

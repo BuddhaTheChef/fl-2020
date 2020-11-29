@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 
+import Anglogo from '../../assets/angular.png';
+import Csslogo from '../../assets/css.png';
+import Fblogo from '../../assets/firebase2.png';
+import Htmlogo from '../../assets/html.png';
+import Jslogo from '../../assets/Javascript.png';
+
 export default class Home extends Component {
   render() {
     return (
@@ -39,6 +45,13 @@ export default class Home extends Component {
         </div>
         <div className="home-lower-subdiv">
           <h1>Technologies</h1>
+          <div className="home-lower-inner-div">
+          <img style={{height:'60px'}} src={Anglogo} alt="angular logo" />
+          <img style={{height:'60px'}} src={Csslogo} alt="CSS logo" />
+          <img style={{height:'60px'}} src={Fblogo} alt="Firebase logo" />
+          <img style={{height:'60px'}} src={Htmlogo} alt="HTML logo" />
+          <img style={{height:'60px'}} src={Jslogo} alt="Javascript logo" />
+          </div>
         </div>
 
         <div className="main-lower-div">
