@@ -5,6 +5,10 @@ import Csslogo from '../../assets/css.png';
 import Fblogo from '../../assets/firebase2.png';
 import Htmlogo from '../../assets/html.png';
 import Jslogo from '../../assets/Javascript.png';
+import Nodejslogo from '../../assets/nodejs2.png';
+import Pylogo from '../../assets/python-logo.png';
+import Reactlogo from '../../assets/react.png';
+import Sqlogo from '../../assets/sql7.png';
 
 export default class Home extends Component {
   render() {
@@ -51,6 +55,10 @@ export default class Home extends Component {
           <img style={{height:'60px'}} src={Fblogo} alt="Firebase logo" />
           <img style={{height:'60px'}} src={Htmlogo} alt="HTML logo" />
           <img style={{height:'60px'}} src={Jslogo} alt="Javascript logo" />
+          <img style={{height:'60px'}} src={Nodejslogo} alt="Node logo" />
+          <img style={{height:'60px'}} src={Pylogo} alt="Python logo" />
+          <img style={{height:'60px'}} src={Reactlogo} alt="React logo" />
+          <img style={{height:'60px'}} src={Sqlogo} alt="SQL logo" />
           </div>
         </div>
 
