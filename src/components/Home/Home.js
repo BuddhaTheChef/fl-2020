@@ -13,7 +13,7 @@ import Sqlogo from '../../assets/sql7.png';
 export default class Home extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "whitesmoke", height: "300vh" }}>
+      <div style={{ backgroundColor: "whitesmoke", height: "285vh"}}>
         <div className="home-head">
         <div className="home-title">
           <h3>Aj Wietecha II - Freelance Contractor</h3>
