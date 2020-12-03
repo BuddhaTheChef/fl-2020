@@ -1,4 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
+import Modal from 'react-modal';
+import { ModalProvider, ModalConsumer } from './ModalContext';
+import ModalRoot from './ModalRoot';
+
+const Modal1 = ({ onRequestClose, ...otherProps }) => (
+  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
+    <button onClick={onRequestClose}>close</button>
+    <div>I am a modal</div>
+  </Modal>
+);
+
+const Modal2 = ({ onRequestClose, ...otherProps }) => (
+  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
+    <button onClick={onRequestClose}>close</button>
+    <div>second modal</div>
+  </Modal>
+);
 
 export default class Work extends Component {
     render() {
@@ -9,10 +26,41 @@ export default class Work extends Component {
             </div>
             <div className="lower-work-div">
             <div class="diagonal-box">
-	        <div class="content"><div className="work-div-subcontent-1"><h4>Work 1</h4></div> </div>
+	        <div class="content"><div className="work-div-subcontent-1">
+             
+
+            <ModalProvider>
+    <ModalRoot />
+    <ModalConsumer>
+      {({ showModal }) => (
+        <Fragment>
+          <button onClick={() => showModal(Modal1)}>Open Modal</button>
+        </Fragment>
+      )}
+    </ModalConsumer>
+  </ModalProvider>
+                
+                </div> 
+
+                </div>
             </div>
             <div class="diagonal-box-rev">
-	        <div class="content-rev"> <div className="work-div-subcontent-2"><h4>Work 2</h4></div> </div>
+	        <div class="content-rev"> <div className="work-div-subcontent-2">
+
+            <ModalProvider>
+    <ModalRoot />
+    <ModalConsumer>
+      {({ showModal }) => (
+        <Fragment>
+          <button onClick={() => showModal(Modal2)}>
+            Open Second Modal
+          </button>
+        </Fragment>
+      )}
+    </ModalConsumer>
+  </ModalProvider>
+
+                </div> </div>
             </div>
             <div class="diagonal-box">
 	        <div class="content"> <div className="work-div-subcontent-3"><h4>Work 3</h4></div> </div>
