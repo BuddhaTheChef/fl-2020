@@ -17,6 +17,13 @@ const Modal2 = ({ onRequestClose, ...otherProps }) => (
   </Modal>
 );
 
+const Modal3 = ({ onRequestClose, ...otherProps }) => (
+  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
+    <button onClick={onRequestClose}>close</button>
+    <div>third modal</div>
+  </Modal>
+);
+
 export default class Work extends Component {
     render() {
         return (
@@ -34,7 +41,9 @@ export default class Work extends Component {
     <ModalConsumer>
       {({ showModal }) => (
         <Fragment>
-          <button onClick={() => showModal(Modal1)}>Open Modal</button>
+          <div style={{ width: '100%', height: 'inherit'}} onClick={() => showModal(Modal1)}>
+            Open First Modal
+          </div>
         </Fragment>
       )}
     </ModalConsumer>
@@ -47,14 +56,14 @@ export default class Work extends Component {
             <div class="diagonal-box-rev">
 	        <div class="content-rev"> <div className="work-div-subcontent-2">
 
-            <ModalProvider>
+    <ModalProvider>
     <ModalRoot />
     <ModalConsumer>
       {({ showModal }) => (
         <Fragment>
-          <button onClick={() => showModal(Modal2)}>
+          <div style={{ width: '100%', height: 'inherit'}} onClick={() => showModal(Modal2)}>
             Open Second Modal
-          </button>
+          </div>
         </Fragment>
       )}
     </ModalConsumer>
@@ -63,7 +72,22 @@ export default class Work extends Component {
                 </div> </div>
             </div>
             <div class="diagonal-box">
-	        <div class="content"> <div className="work-div-subcontent-3"><h4>Work 3</h4></div> </div>
+	        <div class="content"> <div className="work-div-subcontent-3">
+
+          <ModalProvider>
+    <ModalRoot />
+    <ModalConsumer>
+      {({ showModal }) => (
+        <Fragment>
+          <div style={{ width: '100%', height: 'inherit'}} onClick={() => showModal(Modal3)}>
+            Open Third Modal
+          </div>
+        </Fragment>
+      )}
+    </ModalConsumer>
+  </ModalProvider>
+            
+            </div> </div>
             </div>
             <div class="diagonal-box-rev">
 	        <div class="content-rev"> <div className="work-div-subcontent-4"><h4>Work 4</h4></div> </div>
