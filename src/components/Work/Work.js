@@ -6,7 +6,8 @@ import ModalRoot from "./ModalRoot";
 const Modal1 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>I am a modal</div>
+    <div className="modal-work-div-subcontent-1">I am a modal</div>
+    <div style={{'backgroundColor':'black', width: '100%', height:'300px'}}>Content</div>
   </Modal>
 );
 
