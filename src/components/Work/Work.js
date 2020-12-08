@@ -72,7 +72,7 @@ export default class Work extends Component {
             <div class="content">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/ohhoney1.jpg')} alt="img17" style={{ backgroundPosition: 'top',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
 							<h2>Wild <span>Romeo</span></h2>
               <ModalProvider>
@@ -101,7 +101,7 @@ export default class Work extends Component {
             <div class="content-rev">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/AMLandscaping.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
 							<h2>Wild <span>Romeo</span></h2>
               <ModalProvider>
@@ -131,7 +131,7 @@ export default class Work extends Component {
             <div class="content">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/TechChat.png')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
 							<h2>Wild <span>Romeo</span></h2>
               <ModalProvider>
