@@ -6,43 +6,54 @@ import ModalRoot from "./ModalRoot";
 const Modal1 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-1">I am a modal</div>
-    <div style={{'backgroundColor':'black', width: '100%', height:'300px'}}>Content</div>
+    <div className="modal-work-div-subcontent-1">I am a modal #1
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
 const Modal2 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>second modal</div>
+    <div className="modal-work-div-subcontent-2">I am a modal #2
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
 const Modal3 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>third modal</div>
+    <div className="modal-work-div-subcontent-3">I am a modal #3
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
 const Modal4 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>Fourth modal</div>
+    <div className="modal-work-div-subcontent-4">I am a modal #4
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
 const Modal5 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>5 modal</div>
+    <div className="modal-work-div-subcontent-5">I am a modal #5
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
 const Modal6 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div>6 modal</div>
+    <div className="modal-work-div-subcontent-6">I am a modal #6
+    <div className="overlay-modal">Content</div>
+    </div>
   </Modal>
 );
 
@@ -52,14 +63,19 @@ export default class Work extends Component {
       <div>
         <div className="main-work-div">
           <div className="header-work-div">
-            <p style={{ padding: "95px", fontSize: "40px" }}>Work</p>
+            <p style={{ padding: "95px", fontSize: "40px" }}>Past Work</p>
           </div>
         </div>
         <div className="lower-work-div">
-          <div class="diagonal-box">
+
+           <div class="diagonal-box">
             <div class="content">
-              <div className="work-div-subcontent-1">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -68,20 +84,27 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal1)}
                         >
-                          Open First Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>
-            </div>
-          </div>
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+
           <div class="diagonal-box-rev">
             <div class="content-rev">
-              {" "}
-              <div className="work-div-subcontent-2">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -90,20 +113,28 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal2)}
                         >
-                          Open Second Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>{" "}
-            </div>
-          </div>
-          <div class="diagonal-box">
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+       
+                 
+        <div class="diagonal-box">
             <div class="content">
-              {" "}
-              <div className="work-div-subcontent-3">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -112,20 +143,27 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal3)}
                         >
-                          Open Third Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>{" "}
-            </div>
-          </div>
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+
           <div class="diagonal-box-rev">
             <div class="content-rev">
-              {" "}
-              <div className="work-div-subcontent-4">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -134,20 +172,28 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal4)}
                         >
-                          Open Fourth Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>{" "}
-            </div>
-          </div>
-          <div class="diagonal-box">
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+
+                                
+           <div class="diagonal-box">
             <div class="content">
-              {" "}
-              <div className="work-div-subcontent-5">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -156,20 +202,27 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal5)}
                         >
-                          Open Fifth Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>{" "}
-            </div>
-          </div>
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+
           <div class="diagonal-box-rev">
             <div class="content-rev">
-              {" "}
-              <div className="work-div-subcontent-6">
-                <ModalProvider>
+            <div class="grid">
+					<figure class="effect-romeo">
+						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<figcaption>
+							<h2>Wild <span>Romeo</span></h2>
+              <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
                     {({ showModal }) => (
@@ -178,15 +231,19 @@ export default class Work extends Component {
                           style={{ width: "100%", height: "inherit" }}
                           onClick={() => showModal(Modal6)}
                         >
-                          Open sixth Modal
+                          
                         </div>
                       </Fragment>
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-              </div>{" "}
-            </div>
-          </div>
+							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
+						</figcaption>			
+					</figure>
+				</div>
+        </div>
+        </div>
+
         </div>
       </div>
     );
