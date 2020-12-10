@@ -74,7 +74,7 @@ export default class Work extends Component {
 					<figure class="effect-romeo">
 						<img src={require('../../assets/ohhoney1.jpg')} alt="img17" style={{ backgroundPosition: 'top',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>Ohhoney<span>.net</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -90,7 +90,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -103,7 +102,7 @@ export default class Work extends Component {
 					<figure class="effect-romeo">
 						<img src={require('../../assets/AMLandscaping.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>AM <span> Landscaping</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -119,7 +118,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -131,9 +129,9 @@ export default class Work extends Component {
             <div class="content">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src={require('../../assets/TechChat.png')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/techchat1.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>Tech<span>Chat</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -149,7 +147,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -160,9 +157,9 @@ export default class Work extends Component {
             <div class="content-rev">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/carlslist2.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>Carls<span>List</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -178,7 +175,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -190,9 +186,9 @@ export default class Work extends Component {
             <div class="content">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/xposure1.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>X<span>posure</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -208,7 +204,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -219,9 +214,9 @@ export default class Work extends Component {
             <div class="content-rev">
             <div class="grid">
 					<figure class="effect-romeo">
-						<img src="https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
+						<img src={require('../../assets/xplor1.jpg')} alt="img17" style={{ backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover',width:'100%'}}/>
 						<figcaption>
-							<h2>Wild <span>Romeo</span></h2>
+							<h2>X<span>Plor</span></h2>
               <ModalProvider>
                   <ModalRoot />
                   <ModalConsumer>
@@ -237,7 +232,6 @@ export default class Work extends Component {
                     )}
                   </ModalConsumer>
                 </ModalProvider>
-							<p>Romeo never knows what he wants. He seemed to be very cross about something.</p>
 						</figcaption>			
 					</figure>
 				</div>
