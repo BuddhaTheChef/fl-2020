@@ -81,7 +81,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit", backgroundColor: 'rgba(0,0,0,0.5)'}}
                           onClick={() => showModal(Modal1)}
                         >
                           
@@ -109,7 +109,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit", backgroundColor: 'rgba(0,0,0,0.5)' }}
                           onClick={() => showModal(Modal2)}
                         >
                           
@@ -138,7 +138,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit",backgroundColor: 'rgba(0,0,0,0.5)'}}
                           onClick={() => showModal(Modal3)}
                         >
                           
@@ -166,7 +166,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit", backgroundColor: 'rgba(0,0,0,0.5)' }}
                           onClick={() => showModal(Modal4)}
                         >
                           
@@ -195,7 +195,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit", backgroundColor: 'rgba(0,0,0,0.5)'}}
                           onClick={() => showModal(Modal5)}
                         >
                           
@@ -223,7 +223,7 @@ export default class Work extends Component {
                     {({ showModal }) => (
                       <Fragment>
                         <div
-                          style={{ width: "100%", height: "inherit" }}
+                          style={{ width: "100%", height: "inherit", backgroundColor: 'rgba(0,0,0,0.5)'  }}
                           onClick={() => showModal(Modal6)}
                         >
                           
