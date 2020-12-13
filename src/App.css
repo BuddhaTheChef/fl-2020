@@ -567,9 +567,20 @@ figure.effect-romeo:hover p {
     z-index: 10;
     width: 740px;
     height: 100%;
-    background: rgba(66,66,66,0.9);
+    background: rgba(66,66,66,0.96);
     transform: skew(-200.25deg);
     right: -140px;
+}
+
+.modal-inside-text {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 70%;
+    width: 488px;
+    font-size: 22px;
 }
 
 .modal-work-div-subcontent-1 {

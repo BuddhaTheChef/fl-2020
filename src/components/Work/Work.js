@@ -6,8 +6,16 @@ import ModalRoot from "./ModalRoot";
 const Modal1 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-1">I am a modal #1
-    <div className="overlay-modal">Content</div>
+    <div className="modal-work-div-subcontent-1">
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>Ohhoney</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
@@ -15,7 +23,7 @@ const Modal1 = ({ onRequestClose, ...otherProps }) => (
 const Modal2 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-2">I am a modal #2
+    <div className="modal-work-div-subcontent-2">
     <div className="overlay-modal">Content</div>
     </div>
   </Modal>
@@ -24,7 +32,7 @@ const Modal2 = ({ onRequestClose, ...otherProps }) => (
 const Modal3 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-3">I am a modal #3
+    <div className="modal-work-div-subcontent-3">
     <div className="overlay-modal">Content</div>
     </div>
   </Modal>
@@ -33,7 +41,7 @@ const Modal3 = ({ onRequestClose, ...otherProps }) => (
 const Modal4 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-4">I am a modal #4
+    <div className="modal-work-div-subcontent-4">
     <div className="overlay-modal">Content</div>
     </div>
   </Modal>
@@ -42,7 +50,7 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
 const Modal5 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-5">I am a modal #5
+    <div className="modal-work-div-subcontent-5">
     <div className="overlay-modal">Content</div>
     </div>
   </Modal>
@@ -51,7 +59,7 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
 const Modal6 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
-    <div className="modal-work-div-subcontent-6">I am a modal #6
+    <div className="modal-work-div-subcontent-6">
     <div className="overlay-modal">Content</div>
     </div>
   </Modal>
