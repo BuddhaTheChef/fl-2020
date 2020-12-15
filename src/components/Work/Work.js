@@ -24,7 +24,15 @@ const Modal2 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-2">
-    <div className="overlay-modal">Content</div>
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>AM Landscaping LLC</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
@@ -33,7 +41,15 @@ const Modal3 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-3">
-    <div className="overlay-modal">Content</div>
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>Tech Chat</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
@@ -42,7 +58,15 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-4">
-    <div className="overlay-modal">Content</div>
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>Carlslist</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
@@ -51,7 +75,15 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-5">
-    <div className="overlay-modal">Content</div>
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>Xposure</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
@@ -60,7 +92,15 @@ const Modal6 = ({ onRequestClose, ...otherProps }) => (
   <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
     <button onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-6">
-    <div className="overlay-modal">Content</div>
+    <div className="overlay-modal">
+    <div className="modal-inside-text">
+      <h1>Xplor</h1>
+    "Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat."
+    </div>
+    </div>
     </div>
   </Modal>
 );
