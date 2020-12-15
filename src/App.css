@@ -560,6 +560,12 @@ figure.effect-romeo:hover p {
 	transform: translate3d(0,-50%,0) translate3d(0,100%,0);
 }
 
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+  background: #6303B1!important;
+}
 
 .overlay-modal {
   position: absolute;
@@ -581,6 +587,7 @@ figure.effect-romeo:hover p {
     height: 70%;
     width: 488px;
     font-size: 22px;
+    transform: skewX(15deg);
 }
 
 .modal-work-div-subcontent-1 {
