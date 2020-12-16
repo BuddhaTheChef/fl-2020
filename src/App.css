@@ -346,7 +346,7 @@ background-color: rgb(53, 53, 53);
   display: flex;
  justify-content: center;
  align-items: center;
- background-color: hsl(192, 87%, 24%);
+ background-color:rgb(53, 53, 53);
  }
 
  .header-about-div-r-2 {
@@ -355,7 +355,7 @@ background-color: rgb(53, 53, 53);
   display: flex;
  justify-content: center;
  align-items: center;
- background-color: hsl(327, 88%, 31%);
+ background-color:rgb(53, 53, 53);
  }
 
 .lower-about-div {
@@ -599,6 +599,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .modal-work-div-subcontent-2 {
@@ -610,6 +617,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .modal-work-div-subcontent-3 {
@@ -621,6 +635,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .modal-work-div-subcontent-4 {
@@ -632,6 +653,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .modal-work-div-subcontent-5 {
@@ -643,6 +671,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .modal-work-div-subcontent-6 {
@@ -654,6 +689,13 @@ figure.effect-romeo:hover p {
   position: relative;
   overflow: hidden;
   margin: 20px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 
