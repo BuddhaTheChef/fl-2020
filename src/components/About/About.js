@@ -3,6 +3,7 @@ import $ from 'jquery';
 import logo1 from '../../assets/carlslist1.jpg';
 import logo2 from '../../assets/carlslist2.jpg';
 import logo3 from '../../assets/ohhoney1.jpg';
+import logo4 from '../../assets/techchat1.jpg';
 
 export default class About extends Component {
  componentDidMount() {
@@ -31,8 +32,8 @@ export default class About extends Component {
             selectors.item.each(function(i) {
               min = $(this).offset().top;
               max = $(this).height() + $(this).offset().top;
-              var that = $(this);
-              if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+             
+              if (i === itemLength - 2 && pos > min + $(this).height() / 2) {
                 selectors.item.removeClass(selectors.activeClass);
                 selectors.id.css(
                   "background-image",
@@ -68,54 +69,54 @@ export default class About extends Component {
             <div>  
                      <div class="timeline-container" id="timeline-1">
   <div class="timeline-header">
-    <h2 class="timeline-header__title">TIMELINE DESIGN</h2>
-    <h3 class="timeline-header__subtitle">NEW AND CREATIVE</h3>
+    <h2 class="timeline-header__title"> DEVELOPER TIMELINE</h2>
+    <h3 class="timeline-header__subtitle">Journey into a new passion</h3>
   </div>
   <div class="timeline">
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src={logo1} />
+    <div class="timeline-item" data-text="THE YEAR 2014">
+      <div class="timeline__content"><img class="timeline__img" src={logo1} alt="logo for stuff" />
         <h2 class="timeline__content-title">2014</h2>
         <p class="timeline__content-desc">He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now inGreece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafawas still a boy. His mother Zubeyde, adevout and strong-willed woman, raised him and his sister.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src={logo2}/>
+    <div class="timeline-item" data-text="THE YEAR 2015">
+      <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2015</h2>
         <p class="timeline__content-desc">First enrolled in a traditionalreligious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src={logo3}/>
+    <div class="timeline-item" data-text="THE YEAR 2016">
+      <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2016</h2>
         <p class="timeline__content-desc">In 1905, Mustafa Kemal graduated from the War Academy in Istanbul with the rank of Staff Captain. Posted in Damascus, he started with several colleagues, a clandestinesociety called "Homeland and Freedom" to fight against the Sultan'sdespotism.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="adventure-backpack-beach-214575.jpg"/>
+    <div class="timeline-item" data-text="THE YEAR 2017">
+      <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2017</h2>
         <p class="timeline__content-desc">In 1908 he helped the group of officers who toppled the Sultan. Mustafa Kemal'scareer flourished as he won his heroism in the far corners of the Ottoman Empire,including Albania and Tripoli. He also briefly served as a staff officer in Salonica andIstanbul and as a military attache in Sofia.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="azadeh-oveisi-1439715-unsplash.jpg"/>
+    <div class="timeline-item" data-text="THE YEAR 2018">
+      <div class="timeline__content"><img class="timeline__img" src={logo1} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2018</h2>
         <p class="timeline__content-desc">In 1915, when Dardanelles campaign was launched, Colonel Mustafa Kemal became anational hero by winning successive victories and finally repelling the invaders.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="ui.jpg"/>
+    <div class="timeline-item" data-text="THE YEAR 2019">
+      <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2019</h2>
         <p class="timeline__content-desc">Promotedto general in 1916, at age 35, he liberated two major provinces in eastern Turkey thatyear. In the next two years, he served as commander of several Ottoman armies inPalestine, Aleppo, and elsewhere, achieving another major victory by stopping the enemyadvance at Aleppo.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="uy.jpg"/>
+    <div class="timeline-item" data-text="THE YEAR 2020">
+      <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2020</h2>
         <p class="timeline__content-desc">On May 19, 1919, Mustafa Kemal Pasha landed in the Black Sea port of Samsun to startthe War of Independence. In defiance of the Sultan's government, he rallied a liberationarmy in Anatolia and convened the Congress of Erzurum and Sivas which established thebasis for the new national effort under his leadership.</p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="ju.jpg"/>
+    <div class="timeline-item" data-text="THE YEAR 2021">
+      <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2021</h2>
         <p class="timeline__content-desc">
           On April 23, 1920, the GrandNational Assembly was inaugurated. Mustafa Kemal Pasha was elected to its Presidency.
