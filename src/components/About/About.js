@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import $ from 'jquery';
-import logo1 from '../../assets/carlslist1.jpg';
-import logo2 from '../../assets/carlslist2.jpg';
-import logo3 from '../../assets/ohhoney1.jpg';
-import logo4 from '../../assets/techchat1.jpg';
+import logo1 from '../../assets/t1.jpg';
+import logo2 from '../../assets/t2.jpg';
+import logo3 from '../../assets/t3.jpg';
+import logo4 from '../../assets/t4.jpg';
+import logo5 from '../../assets/carlslist1.jpg';
+import logo6 from '../../assets/ohhoney1.jpg';
+
+import logo8 from '../../assets/t8.jpg';
+
 
 export default class About extends Component {
  componentDidMount() {
@@ -80,7 +85,7 @@ export default class About extends Component {
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2015">
-      <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2015</h2>
         <p class="timeline__content-desc">First enrolled in a traditionalreligious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.</p>
       </div>
@@ -92,19 +97,19 @@ export default class About extends Component {
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2017">
-      <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2017</h2>
         <p class="timeline__content-desc">In 1908 he helped the group of officers who toppled the Sultan. Mustafa Kemal'scareer flourished as he won his heroism in the far corners of the Ottoman Empire,including Albania and Tripoli. He also briefly served as a staff officer in Salonica andIstanbul and as a military attache in Sofia.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2018">
-      <div class="timeline__content"><img class="timeline__img" src={logo1} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo5} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2018</h2>
         <p class="timeline__content-desc">In 1915, when Dardanelles campaign was launched, Colonel Mustafa Kemal became anational hero by winning successive victories and finally repelling the invaders.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2019">
-      <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo6} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2019</h2>
         <p class="timeline__content-desc">Promotedto general in 1916, at age 35, he liberated two major provinces in eastern Turkey thatyear. In the next two years, he served as commander of several Ottoman armies inPalestine, Aleppo, and elsewhere, achieving another major victory by stopping the enemyadvance at Aleppo.</p>
       </div>
@@ -116,7 +121,7 @@ export default class About extends Component {
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2021">
-      <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo8} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2021</h2>
         <p class="timeline__content-desc">
           On April 23, 1920, the GrandNational Assembly was inaugurated. Mustafa Kemal Pasha was elected to its Presidency.
