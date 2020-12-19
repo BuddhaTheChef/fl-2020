@@ -61,6 +61,8 @@ a {
   color: whitesmoke;
 }
 
+
+
 /* Home Page */
 
 .home-head {
@@ -69,22 +71,31 @@ a {
   background-color: rebeccapurple;
 }
 
+.picome {
+  height: 800px;
+  top: 85px;
+  right: 250px;
+  position: fixed;
+  z-index: 0;
+}
+
 .home-head h1 {
   display: flex;
     position: absolute;
     top: 130px;
     left: 200px;
+    font-size: 20px;
 }
 
 .home-title {
   position: absolute;
   top: 240px;
   left:200px;
-  font-size: 30px;
 }
 
 .home-title h4 {
   font-size: 20px;
+  font-weight: lighter;
 }
 
 .home-container {
@@ -116,6 +127,9 @@ a {
 .main-lower-div {
   display: flex;
   padding-top: 50px;
+  background-color: whitesmoke;
+  z-index: 3;
+  height: auto;
 }
 
 .home-lower-div-1 {
@@ -641,6 +655,10 @@ figure.effect-romeo:hover p {
   background: #6303B1!important;
 }
 
+.ReactModal__Overlay, .ReactModal__Overlay--after-open {
+  z-index: 400 !important;
+}
+
 .overlay-modal {
   position: absolute;
     top: 0;
@@ -772,6 +790,20 @@ figure.effect-romeo:hover p {
   0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
+.modalButton {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.modalButton:hover {
+  background-color: #555555;
+  color: white;
+}
+
 
 .diagonal-box {
   background-image: linear-gradient(45deg, #6303B1, #ff0099);
@@ -839,7 +871,7 @@ figure.effect-romeo:hover p {
 width: 100%;
 height: 60vh;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 background-color: rgba(0,0,0,0.5);
 }

@@ -10,13 +10,15 @@ import Pylogo from '../../assets/python-logo.png';
 import Reactlogo from '../../assets/react.png';
 import Sqlogo from '../../assets/sql7.png';
 
+import picome from '../../assets/picome.PNG';
+
 export default class Home extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "whitesmoke", height: "285vh"}}>
         <div className="home-head">
         <div className="home-title">
-          <h3>Aj Wietecha II - Freelance Contractor</h3>
+          <h3 style={{fontSize: '30px'}}>Aj Wietecha II - Freelance Developer</h3>
           <h4>Providing Solutions for Small Businesses, Independent Contractors and Coorperations</h4>
         </div>
           <section id="home">
@@ -24,10 +26,12 @@ export default class Home extends Component {
               
             </div>
             <div class="home-img-container">
+              <img className="picome" src={picome} alt="me"/>
             </div>
             <div class="diagonal"></div>
           </section>
         </div>
+        <div style={{backgroundColor: 'whitesmoke',position:'relative',height:'1800px'}}>
         <div className="main-lower-div">
         <div className="home-lower-div-1">
           <div className="header-home-div-overlay">
@@ -79,6 +83,7 @@ export default class Home extends Component {
         <div className="header-home-div-overlay">
             <h1 style={{paddingLeft:"14px",textAlign: 'left'}}>Consulting</h1>
             </div>
+        </div>
         </div>
         </div>
       </div>

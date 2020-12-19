@@ -10,6 +10,7 @@ export default class Footer extends Component {
             backgroundColor: "rgb(66,66,66)",
             height: "250px",
             padding: "50px",
+            position: 'relative'
           }}
         >
           <div className="main-footer-div">

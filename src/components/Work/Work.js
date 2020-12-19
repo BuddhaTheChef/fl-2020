@@ -9,7 +9,7 @@ const Modal1 = ({ onRequestClose, ...otherProps }) => (
     onRequestClose={onRequestClose}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-1">
       <div className="overlay-modal">
         <div className="modal-inside-text">
@@ -30,7 +30,7 @@ const Modal2 = ({ onRequestClose, ...otherProps }) => (
     {...otherProps}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-2">
       <div className="overlay-modal">
         <div className="modal-inside-text">
@@ -51,7 +51,7 @@ const Modal3 = ({ onRequestClose, ...otherProps }) => (
     {...otherProps}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-3">
       <div className="overlay-modal">
         <div className="modal-inside-text">
@@ -73,7 +73,7 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
     {...otherProps}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-4">
       <div className="overlay-modal">
         <div className="modal-inside-text">
@@ -103,7 +103,7 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
     {...otherProps}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-5">
       <div className="overlay-modal">
         <div className="modal-inside-text">
@@ -131,7 +131,7 @@ const Modal6 = ({ onRequestClose, ...otherProps }) => (
     {...otherProps}
     style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
   >
-    <button onClick={onRequestClose}>close</button>
+    <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-6">
       <div className="overlay-modal">
         <div className="modal-inside-text">
