@@ -74,20 +74,24 @@ export default class About extends Component {
             <div>  
                      <div class="timeline-container" id="timeline-1">
   <div class="timeline-header">
-    <h2 class="timeline-header__title"> DEVELOPER TIMELINE</h2>
+    <h2 class="timeline-header__title">PERSONAL TIMELINE</h2>
     <h3 class="timeline-header__subtitle">Journey into a new passion</h3>
   </div>
   <div class="timeline">
     <div class="timeline-item" data-text="THE YEAR 2014">
       <div class="timeline__content"><img class="timeline__img" src={logo1} alt="logo for stuff" />
         <h2 class="timeline__content-title">2014</h2>
-        <p class="timeline__content-desc">He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now inGreece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafawas still a boy. His mother Zubeyde, adevout and strong-willed woman, raised him and his sister.</p>
+        <p class="timeline__content-desc">
+          During my time with hard labor work, such as landscaping. I wanted to challenge my mind instead of my body so I took it upon myself to learn coding. Starting with free programs such as freeCodeCamp and Codecademy. 
+        </p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2015">
       <div class="timeline__content"><img class="timeline__img" src={logo2} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2015</h2>
-        <p class="timeline__content-desc">First enrolled in a traditionalreligious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.</p>
+        <p class="timeline__content-desc">
+          In 2015, I was still progressing on my own creating small applications. Starting with small portfolio applications and getting into algorthims and data sturctures to improve my logic as a developer.  
+        </p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2016">
