@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import mylogo from '../../assets/witecha.jpg'
 import Anglogo from '../../assets/angular.png';
 import Csslogo from '../../assets/css.png';
 import Fblogo from '../../assets/firebase2.png';
@@ -28,7 +29,9 @@ export default class Home extends Component {
             <div class="home-img-container">
               <img className="picome" src={picome} alt="me"/>
             </div>
-            <div class="diagonal"></div>
+            <div class="diagonal">
+              <img src={mylogo} alt="mylogo" className="mylogo"/>
+            </div>
           </section>
         </div>
         <div style={{backgroundColor: 'whitesmoke',position:'relative',height:'1800px'}}>

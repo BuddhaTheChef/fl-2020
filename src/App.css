@@ -120,14 +120,25 @@ a {
   height: 600px;
   bottom: 14px;
   transform: rotate(-20deg);
-  background: whitesmoke;
+  background: white;
   z-index: 1;
+}
+
+.mylogo {
+  height: 330px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  transform: rotate(20deg);
+  margin: 0 auto;
+  top: 64px;
+  left: -751px;
 }
 
 .main-lower-div {
   display: flex;
   padding-top: 50px;
-  background-color: whitesmoke;
+  background-color: white;
   z-index: 3;
   height: auto;
 }

@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <div className="navbar">
         <div className="header-nav">
-        <h3>Wi-tech</h3>
+        <h3>Wi-Tech</h3>
         </div>
         <div className="link-nav">
         <Link to="/">Home</Link>
