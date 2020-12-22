@@ -97,7 +97,7 @@ export default class About extends Component {
     <div class="timeline-item" data-text="THE YEAR 2016">
       <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2016</h2>
-        <p class="timeline__content-desc">In 1905, Mustafa Kemal graduated from the War Academy in Istanbul with the rank of Staff Captain. Posted in Damascus, he started with several colleagues, a clandestinesociety called "Homeland and Freedom" to fight against the Sultan'sdespotism.</p>
+        <p class="timeline__content-desc">2016, I was getting into mobile development and working on backend knowledge to produce full stack applicstions and then started applying to coding bootcamps while learning more algorithms and design patterns.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2017">
