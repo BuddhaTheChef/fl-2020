@@ -97,13 +97,13 @@ export default class About extends Component {
     <div class="timeline-item" data-text="THE YEAR 2016">
       <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2016</h2>
-        <p class="timeline__content-desc">2016, I was getting into mobile development and working on backend knowledge to produce full stack applicstions and then started applying to coding bootcamps while learning more algorithms and design patterns.</p>
+        <p class="timeline__content-desc">2016, I was getting into mobile development and working on backend knowledge to produce full stack applications and then started applying to coding bootcamps while learning more algorithms and design patterns.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2017">
       <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2017</h2>
-        <p class="timeline__content-desc">In 1908 he helped the group of officers who toppled the Sultan. Mustafa Kemal'scareer flourished as he won his heroism in the far corners of the Ottoman Empire,including Albania and Tripoli. He also briefly served as a staff officer in Salonica andIstanbul and as a military attache in Sofia.</p>
+        <p class="timeline__content-desc">IN 2017, I applied to bootcamps while working on my frontend and JavaScript skills I worked on things such as paralax scroll and DOM manipulation.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2018">
