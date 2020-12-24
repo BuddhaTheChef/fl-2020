@@ -103,13 +103,13 @@ export default class About extends Component {
     <div class="timeline-item" data-text="THE YEAR 2017">
       <div class="timeline__content"><img class="timeline__img" src={logo4} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2017</h2>
-        <p class="timeline__content-desc">IN 2017, I applied to bootcamps while working on my frontend and JavaScript skills I worked on things such as paralax scroll and DOM manipulation.</p>
+        <p class="timeline__content-desc">In 2017, I applied to bootcamps while working on my frontend and JavaScript skills I worked on things such as paralax scroll and DOM manipulation.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2018">
       <div class="timeline__content"><img class="timeline__img" src={logo5} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2018</h2>
-        <p class="timeline__content-desc">In 1915, when Dardanelles campaign was launched, Colonel Mustafa Kemal became anational hero by winning successive victories and finally repelling the invaders.</p>
+        <p class="timeline__content-desc">2018 was a great year that jump started my carrer, I enrolled in a Full Stack Web Development bootcamp in Dallas,TX called DevMountain. Here I was able to collaberate with other developers and create beautiful applications.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2019">
