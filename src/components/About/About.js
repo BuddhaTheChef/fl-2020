@@ -115,7 +115,7 @@ export default class About extends Component {
     <div class="timeline-item" data-text="THE YEAR 2019">
       <div class="timeline__content"><img class="timeline__img" src={logo6} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2019</h2>
-        <p class="timeline__content-desc">Promotedto general in 1916, at age 35, he liberated two major provinces in eastern Turkey thatyear. In the next two years, he served as commander of several Ottoman armies inPalestine, Aleppo, and elsewhere, achieving another major victory by stopping the enemyadvance at Aleppo.</p>
+        <p class="timeline__content-desc">2019, I moved to Seattle and applied to a bunch of companies. I landed a role as a medical device technician, here I heard about a program called Year Up and applied. I got in and started my new journey meeting new people and learning new topics. Everything was going well.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2020">
