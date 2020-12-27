@@ -121,15 +121,14 @@ export default class About extends Component {
     <div class="timeline-item" data-text="THE YEAR 2020">
       <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2020</h2>
-        <p class="timeline__content-desc">On May 19, 1919, Mustafa Kemal Pasha landed in the Black Sea port of Samsun to startthe War of Independence. In defiance of the Sultan's government, he rallied a liberationarmy in Anatolia and convened the Congress of Erzurum and Sivas which established thebasis for the new national effort under his leadership.</p>
+        <p class="timeline__content-desc">2020, I jumped started my career by landing a role at JPMC as a software engineer. Here I learned to work with new technologies such as AWS, and Python as well as navigating cooperate enviornments.</p>
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2021">
       <div class="timeline__content"><img class="timeline__img" src={logo8} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2021</h2>
         <p class="timeline__content-desc">
-          On April 23, 1920, the GrandNational Assembly was inaugurated. Mustafa Kemal Pasha was elected to its Presidency.
-          Fighting on many fronts, he led his forces to victory against rebels and invadingarmies. Following the Turkish triumph at the two major battles at Inonu in Western Turkey,the Grand National Assembly conferred on Mustafa Kemal Pasha the title ofCommander-in-Chief with the rank of Marshal.
+          Coming Soon...
         </p>
       </div>
     </div>
