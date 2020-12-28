@@ -128,7 +128,7 @@ export default class About extends Component {
       <div class="timeline__content"><img class="timeline__img" src={logo8} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2021</h2>
         <p class="timeline__content-desc">
-          Coming Soon...
+          Soon to be announced.
         </p>
       </div>
     </div>
