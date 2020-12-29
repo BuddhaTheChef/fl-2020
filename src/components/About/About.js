@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import $ from 'jquery';
-import logo1 from '../../assets/t1.jpg';
+// import logo1 from '../../assets/t1.jpg';
+import logo1 from '../../assets/amlandscaping.jpeg';
 import logo2 from '../../assets/t2.jpg';
 import logo3 from '../../assets/t3.jpg';
-import logo4 from '../../assets/t4.jpg';
-import logo5 from '../../assets/carlslist1.jpg';
-import logo6 from '../../assets/ohhoney1.jpg';
+import logo4 from '../../assets/dm-img.jpg';
+import logo5 from '../../assets/carlslist2.jpg';
+import logo6 from '../../assets/seattle.jpeg';
 
 import logo8 from '../../assets/t8.jpg';
 
