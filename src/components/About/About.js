@@ -7,7 +7,7 @@ import logo3 from '../../assets/t3.jpg';
 import logo4 from '../../assets/dm-img.jpg';
 import logo5 from '../../assets/carlslist2.jpg';
 import logo6 from '../../assets/seattle.jpeg';
-
+import logo7 from '../../assets/pcsf.jpeg';
 import logo8 from '../../assets/t8.jpg';
 
 
@@ -120,7 +120,7 @@ export default class About extends Component {
       </div>
     </div>
     <div class="timeline-item" data-text="THE YEAR 2020">
-      <div class="timeline__content"><img class="timeline__img" src={logo3} alt="logo for stuff"/>
+      <div class="timeline__content"><img class="timeline__img" src={logo7} alt="logo for stuff"/>
         <h2 class="timeline__content-title">2020</h2>
         <p class="timeline__content-desc">2020, I jumped started my career by landing a role at JPMC as a software engineer. Here I learned to work with new technologies such as AWS, and Python as well as navigating cooperate enviornments.</p>
       </div>
