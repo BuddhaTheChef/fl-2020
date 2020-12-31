@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
+import ContactUs from './ContactUs';
 
 export default class Contact extends Component {
     render() {
@@ -50,7 +51,9 @@ export default class Contact extends Component {
             </div>
             </div>
             <div className="main-contact-div-lower">
-                <div className="footer-contact-div"><p style={{padding: '95px', fontSize: '40px'}}>Embededded Emails</p></div>
+                <div className="footer-contact-div">
+                  <ContactUs/>
+                </div>
             </div>
             </div>
         )
