@@ -8,9 +8,9 @@ export default class Footer extends Component {
         <div
           style={{
             backgroundColor: "rgb(66,66,66)",
-            height: "250px",
             padding: "50px",
-            position: 'relative'
+            position: 'relative',
+            height: '398px'
           }}
         >
           <div className="main-footer-div">
@@ -75,7 +75,7 @@ export default class Footer extends Component {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            position: "relative",
+            position: "relative", 
           }}
         >
           &#169; ajwietecha 2020

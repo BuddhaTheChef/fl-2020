@@ -17,7 +17,7 @@ function App() {
         <h3>Wi-Tech</h3>
         </div>
         <div className="link-nav">
-        <Link to="/">Home</Link>
+        <Link to="/" className="header-link">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/work">Work</Link>
         <Link to="/Contact">Contact</Link>
