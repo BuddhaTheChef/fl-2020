@@ -157,7 +157,9 @@ export default class Work extends Component {
       <div>
         <div className="main-work-div">
           <div className="header-work-div">
+            <div className="header-work-div-overlay">
             <p style={{ padding: "95px", fontSize: "40px" }}>Past Work</p>
+            </div>
           </div>
         </div>
         <div className="lower-work-div">

@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
 import ContactUs from './ContactUs';
 
 export default class Contact extends Component {
@@ -16,36 +15,48 @@ export default class Contact extends Component {
             <div className="header-contact-div">
 
 
-            <Link
-                href="#"
+              <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-twitter"
                 style={{ fontSize: "90px" }}
-              ></Link>
-              <Link
-                href="#"
+              ><i></i></a>
+              <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-github"
                 style={{ fontSize: "90px" }}
-              ></Link>
-              <Link
-                href="#"
+              ><i></i></a>
+               <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-instagram"
                 style={{ fontSize: "90px" }}
-              ></Link>
-              <Link
-                href="#"
+              ><i></i></a>
+               <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-facebook"
                 style={{ fontSize: "90px" }}
-              ></Link>
-              <Link
-                href="#"
+              ><i></i></a>
+               <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-twitch"
                 style={{ fontSize: "90px" }}
-              ></Link>
-              <Link
-                href="#"
+              ><i></i></a>
+               <a
+                href="https://github.com/BuddhaTheChef"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="fa fa-linkedin"
                 style={{ fontSize: "90px" }}
-              ></Link>
+              ><i></i></a>
 
 
             </div>

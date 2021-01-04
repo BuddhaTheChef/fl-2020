@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery';
 // import logo1 from '../../assets/t1.jpg';
-import logo1 from '../../assets/amlandscaping.jpeg';
+import logo1 from '../../assets/t1.jpg';
 import logo2 from '../../assets/t2.jpg';
 import logo3 from '../../assets/t3.jpg';
 import logo4 from '../../assets/dm-img.jpg';
