@@ -18,17 +18,17 @@ class Contact extends Component {
             <h3 style={{ padding: "95px", fontSize: "40px", textAlign:'left' }}>
               Working Out Of
             </h3>
-            <p style={{fontSize:' 24px'}}>Seattle, WA</p>
-            <p style={{fontSize:' 24px'}}>98121</p>
-            <p style={{fontSize:' 24px'}}>M-F (9am - 5pm)</p>
-            <p style={{fontSize:' 24px'}}>Pacific Standard Time (PST)</p>
+            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>Seattle, WA</p>
+            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>98121</p>
+            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>M-F (9am - 5pm)</p>
+            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>Pacific Standard Time (PST)</p>
 
             </div>
             <Map google={this.props.google} initialCenter={{
             lat: 47.6180,
             lng: -122.3483
           }}
-          zoom={13} style={{width:'50%', height: '50%', margin: 'auto 740px'}}>
+          zoom={13} style={{width:'50%', height: '50%', margin: 'auto 740px', borderRadius: '20px'}} id="map-outline">
               <Marker onClick={this.onMarkerClick} name={"Current location"} />
 
               <InfoWindow onClose={this.onInfoWindowClose}>

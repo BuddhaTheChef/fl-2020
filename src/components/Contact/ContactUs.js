@@ -6,7 +6,7 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', e.target, 'USER_ID')
+    emailjs.sendForm('REACT_APP_SERVICE_ID', 'REACT_APP_TEMPLATE_ID', e.target, 'REACT_APP_USER_ID')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -47,13 +47,13 @@ export default function ContactUs() {
        
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="NAME" name="user_name" value=""/>
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="user_name"/>
         </div>
       </div>
 
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="user_email" value=""/>
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="user_email"/>
         </div>
       </div>
 
