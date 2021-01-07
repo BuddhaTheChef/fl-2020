@@ -23,13 +23,13 @@ export default class Home extends Component {
           <h4>Providing Solutions for Small Businesses, Independent Contractors and Coorperations</h4>
         </div>
           <section id="home">
-            <div class="home-container">
+            <div className="home-container">
               
             </div>
-            <div class="home-img-container">
+            <div className="home-img-container">
               <img className="picome" src={picome} alt="me"/>
             </div>
-            <div class="diagonal">
+            <div className="diagonal">
               <img src={mylogo} alt="mylogo" className="mylogo"/>
             </div>
           </section>

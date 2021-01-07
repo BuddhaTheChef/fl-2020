@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import ContactUs from "./ContactUs";
-
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <div className="main-contact-div">
+       <div className="main-contact-div">
           <div className="header-contact-div">
             <p style={{ padding: "95px", fontSize: "40px" }}>Contact</p>
           </div>
@@ -99,7 +98,8 @@ class Contact extends Component {
           <div className="footer-contact-div">
             <ContactUs />
           </div>
-        </div>
+        </div> 
+
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link,Route, Switch } from 'react-router-dom';
+import { NavLink,Route, Switch } from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -9,18 +9,29 @@ import Contact from './components/Contact/Contact';
 import './App.css';
 import Footer from './components/Footer';
 
-function App() {
+const App = (props) => {
+
+  React.useEffect(() => {
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links-a");
+    hamburger.addEventListener('click', (event) => {
+      navLinks.classList.toggle('open');
+    });
+  });
+
   return (
     <div className="App">
-      <div className="navbar">
-        <div className="header-nav">
-        <h3>Wi-Tech</h3>
+      <div className="nav-a">
+        <div className="hamburger">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
-        <div className="link-nav">
-        <Link to="/" className="header-link">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/work">Work</Link>
-        <Link to="/Contact">Contact</Link>
+        <div className="nav-links-a">
+        <NavLink exact to="/" className="header-link" activeClassName="header-link-active">Home</NavLink>
+        <NavLink exact to="/about" className="header-link" activeClassName="header-link-active">About</NavLink>
+        <NavLink exact to="/work" className="header-link" activeClassName="header-link-active">Work</NavLink>
+        <NavLink exact to="/Contact" className="header-link" activeClassName="header-link-active">Contact</NavLink>
         </div>
       </div>
         <Switch>
