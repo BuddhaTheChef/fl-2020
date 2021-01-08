@@ -73,7 +73,7 @@ a:visited {
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 0%;
+    top: -12%;
     transform: translate(-5%, 46%);
     z-index: 2000;
   }
@@ -86,7 +86,7 @@ a:visited {
     width: 100vw;
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -13%);
+    -webkit-clip-path: circle(100px at 90% -14%);
     transition: all 1s ease-out;
   }
 
@@ -804,8 +804,8 @@ figure.effect-romeo:hover p {
 }
 
 .modalButton {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: whitesmoke;
   border: 2px solid #555555;
   width: 90px;
   height: 30px;
@@ -861,6 +861,30 @@ figure.effect-romeo:hover p {
   transform: skewY(-11deg);
   position: relative;
   height: 500px;
+}
+
+@media screen and (max-width: 768px) { 
+  .content {
+    max-width: fit-content;
+    margin: 79px 7px 0px auto;
+    transform: skewY(11deg);
+    position: relative;
+    height: 246px;
+  }
+
+  .content-rev {
+    max-width: fit-content;
+    margin: 79px 7px 0px auto;
+    transform: skewY(-11deg);
+    position: relative;
+    height: 246px;
+  }
+   .header-work-div-overlay {
+     justify-content: center;
+   }
+  figure, img {
+    width: 407px;
+  }
 }
 
 /* Contact Page */
