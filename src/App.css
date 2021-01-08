@@ -1069,6 +1069,25 @@ h6 {
   a {
     font-size: xx-large !important;
   }
+
+  .goog-map {
+    margin-left: -592px;
+  }
+
+  #head-contact-div2 > #cnt-app {
+    font-size: 80px !important;
+    padding: 23px;
+  }
+
+  .header-contact-div {
+    width: 100%;
+    display: inline-flex;
+    height: 60vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 hr {
@@ -1107,6 +1126,7 @@ hr {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
+
 
 /* Begin Left Contact Page */
 .form-horizontal {

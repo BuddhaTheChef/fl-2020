@@ -27,7 +27,7 @@ class Contact extends Component {
             lat: 47.6180,
             lng: -122.3483
           }}
-          zoom={13} style={{width:'50%', height: '50%', margin: 'auto 740px', borderRadius: '20px'}} id="map-outline">
+          zoom={13} className="goog-map" style={{width:'50%', height: '50%', margin: 'auto 740px', borderRadius: '20px'}} id="map-outline">
               <Marker onClick={this.onMarkerClick} name={"Current location"} />
 
               <InfoWindow onClose={this.onInfoWindowClose}>
@@ -37,10 +37,11 @@ class Contact extends Component {
           </div>
         </div>
         <div className="lower-contact-div">
-          <div className="header-contact-div">
+          <div className="header-contact-div" id="head-contact-div2">
             <a
               href="https://github.com/BuddhaTheChef"
               target="_blank"
+              id="cnt-app"
               rel="noopener noreferrer"
               class="fa fa-twitter"
               style={{ fontSize: "90px" }}
@@ -52,6 +53,7 @@ class Contact extends Component {
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-github"
+              id="cnt-app"
               style={{ fontSize: "90px" }}
             >
               <i></i>
@@ -61,6 +63,7 @@ class Contact extends Component {
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-instagram"
+              id="cnt-app"
               style={{ fontSize: "90px" }}
             >
               <i></i>
@@ -70,6 +73,7 @@ class Contact extends Component {
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-facebook"
+              id="cnt-app"
               style={{ fontSize: "90px" }}
             >
               <i></i>
@@ -78,6 +82,7 @@ class Contact extends Component {
               href="https://github.com/BuddhaTheChef"
               target="_blank"
               rel="noopener noreferrer"
+              id="cnt-app"
               class="fa fa-twitch"
               style={{ fontSize: "90px" }}
             >
@@ -87,6 +92,7 @@ class Contact extends Component {
               href="https://github.com/BuddhaTheChef"
               target="_blank"
               rel="noopener noreferrer"
+              id="cnt-app"
               class="fa fa-linkedin"
               style={{ fontSize: "90px" }}
             >

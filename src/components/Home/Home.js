@@ -34,7 +34,7 @@ export default class Home extends Component {
             </div>
           </section>
         </div>
-        <div style={{backgroundColor: 'whitesmoke',position:'relative',height:'1800px'}}>
+        <div style={{backgroundColor: 'white',position:'relative',height:'1800px'}}>
         <div className="main-lower-div">
         <div className="home-lower-div-1">
           <div className="header-home-div-overlay">
