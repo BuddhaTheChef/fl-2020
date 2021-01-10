@@ -58,8 +58,7 @@ const Modal3 = ({ onRequestClose, ...otherProps }) => (
           <h1>Tech Chat</h1>
           <h4>| React.js | Redux | Firebase | CSS | Moment |</h4>
           "A spin off discord and slack where you can directly communicate with
-          indviduals in your specific field. Tech chat allows you to share your
-          code and get in touch with industry experts."
+          indviduals in your specific field."
         </div>
       </div>
     </div>
@@ -84,12 +83,7 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
           </h4>
           "Essentially this web application is a craigslist redesign but more
           than that we updated some functionality that craigslist doesn't have,
-          For a more clean modern look. FEATURES: have a user sign in and have
-          saved content based on the users session, show the real time clock and
-          calendar based on current date, Shows the three most viewed items on
-          the homepage, able to send a direct email to someone instead of a
-          copied link, search by keywords and filter by different categories,
-          CLEAN AND MODERN LOOK"
+          For a more clean modern look."
         </div>
       </div>
     </div>
@@ -114,10 +108,7 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
           </h4>
           "A web app used to showcase your talents by setting up events and
           getting your name around also a good place to find events happening in
-          your area. FEATURES: have a user sign in and have saved content based
-          on the users session, have an event thats been created saved to their
-          profile and upload to newsfeed, able to use on a desktop and is mobile
-          responsive keeping all of the functionality"
+          your area."
         </div>
       </div>
     </div>
@@ -141,10 +132,7 @@ const Modal6 = ({ onRequestClose, ...otherProps }) => (
           </h4>
           " A web app used to search by city anywhere in the world and find the
           top attractions and landmarks to visit before you leave ranking from
-          highest to lowest FEATURES: be able to type in any city and get the
-          top results using Google Maps API and Yelp Api, able to combine the
-          top places found on Yelp and implement it in Google Maps, interactive
-          video home page using iframes and loops with a search bar overlay "
+          highest to lowest."
         </div>
       </div>
     </div>

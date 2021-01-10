@@ -885,6 +885,38 @@ figure.effect-romeo:hover p {
   figure, img {
     width: 407px;
   }
+  .modal-inside-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 211px;
+    padding: 50px;
+    text-align: right;
+    height: 70%;
+    margin-top: 236px;
+    height: 56%;
+    margin-left: -33px;
+    font-size: 12px;
+    transform: skewX(25deg);
+  }
+  .modal-inside-text, h1 {
+    font-size: 18px;
+  }
+  .modal-inside-text, .h4, h4 {
+    font-style: oblique;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .overlay-modal {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 75%;
+    height: 100%;
+    background: rgba(66, 66, 66, 0.96);
+    transform: skew(-205.25deg);
+    right: -140px;
+  }
 }
 
 /* Contact Page */
