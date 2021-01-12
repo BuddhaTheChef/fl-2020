@@ -310,6 +310,64 @@ a:visited {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 767px) {
+  .home-head {
+    height: 75vh;
+  }
+  .diagonal {
+    position: relative;
+    width: 172vw;
+    height: 195px;
+    bottom: -427px;
+    right: -79px;
+    transform: rotate(-20deg);
+    background: white;
+    z-index: 1;
+  }
+
+  .mylogo {
+    justify-content: center !important;
+    width: 140px !important;
+    position: relative !important;
+    transform: rotate(20deg) !important;
+    top: 39px !important;
+    right: -144px !important;
+    height: 135px !important;
+    left: 140px !important;
+    margin: 0px !important; 
+}
+
+.picome {
+  height: 500px;
+  top: 114px;
+  width: 291px;
+  right: -36px;
+  position: fixed;
+  z-index: 0;
+}
+
+.home-title {
+  top: 74px;
+  left: 4px;
+  width: 99%;
+}
+
+.home-title > h3  {
+  font-size: 22px !important;
+  margin-left: 10px !important;
+}
+
+.home-title > h4 {
+  width: 50%;
+  margin-top: 41px;
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 2;
+}
+
+}
+
+
 /* About page  */
 
 .timeline {
@@ -1007,12 +1065,12 @@ figure.effect-romeo:hover p {
 .jumbo-footer {
   background-color: rgb(66, 66, 66);
   padding: 23px;
-  padding-bottom: 40px;
   position: relative;
   height: 94px;
   width: 100%;
   justify-content: space-around;
   display: flex;
+  align-items: center;
 }
 
 .main-footer-div {
@@ -1089,9 +1147,20 @@ h6 {
 }
 
 @media screen and (max-width: 760px) {
+  body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
   .jumbo-footer {
     height: 90px;
   }
+  .main-footer-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
   .sub-footer-div-1,
   h3,
   h6 {
@@ -1104,6 +1173,29 @@ h6 {
 
   .goog-map {
     margin-left: -592px;
+  }
+
+  .goog-map > div {
+    position: absolute !important;
+    inset: 0px !important;
+    width: 92% !important;
+    height: 61% !important;
+    margin: 226px 0px 0px 610px !important;
+    border-radius: 20px !important;
+    display: inherit !important;
+    overflow: hidden !important;
+  }
+
+  .inner-header-contact-div-2-header {
+    margin-top: -300px !important;
+    font-size: 25px !important;
+    text-align: center !important;
+    padding: 0px !important;
+  }
+
+  .inner-header-contact-div-2-p {
+    font-size: 16px !important; 
+    font-weight: lighter;
   }
 
   #head-contact-div2 > #cnt-app {
@@ -1120,6 +1212,93 @@ h6 {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+  .inner-header-contact-div-2 {
+    display: flex; 
+    width: 100% !important;
+  }
+
+  #contact {
+    overflow: visible !important;
+  }
+
+  .direct-contact-container {
+    margin: 0px !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    margin: 0px;
+  }
+
+  .list-item {
+    height: 42px;
+  }
+
+  .contact-list {
+    text-align: left !important;
+    margin-left: 30px !important;
+  }
+
+  .send-button {
+    width: 340px !important;
+    margin-left: 30px !important;
+    text-align: center !important;
+  }
+
+  .button {
+    width: 340px !important;
+    text-align: center !important;
+  }
+
+  .contact-text {
+    font-size: 12px !important;
+  }
+
+  .contact-text > a {
+    font-size: 12px !important;
+  }
+
+
+  .hr-contact {
+    display: none !important;
+  }
+
+  .social-media-list {
+    display: none !important;
+  }
+
+
+  .section-header {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .footer-contact-div {
+    align-items: flex-start !important;
+  }
+}
+
+.inner-header-contact-div-2 {
+  display: flex; 
+  width: 38%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  height: inherit;
+  flex-direction: column;
+}
+
+.inner-header-contact-div-2-header {
+  padding: 95px;
+  font-size: 40px; 
+  text-align: left; 
+}
+
+.inner-header-contact-div-2-p {
+  font-size: 24px; 
+  font-weight: lighter;
 }
 
 hr {

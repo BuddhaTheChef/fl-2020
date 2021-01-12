@@ -13,14 +13,14 @@ class Contact extends Component {
         </div>
         <div className="mid-contact-div">
           <div className="header-contact-div-2">
-            <div style={{display: 'flex', width: '38%',justifyContent: 'center',alignItems: 'center',marginBottom: '150px',height: 'inherit',flexDirection: 'column'}}>
-            <h3 style={{ padding: "95px", fontSize: "40px", textAlign:'left' }}>
+            <div className="inner-header-contact-div-2">
+            <h3 className="inner-header-contact-div-2-header">
               Working Out Of
             </h3>
-            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>Seattle, WA</p>
-            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>98121</p>
-            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>M-F (9am - 5pm)</p>
-            <p style={{fontSize:' 24px', fontWeight:'lighter'}}>Pacific Standard Time (PST)</p>
+            <p className="inner-header-contact-div-2-p">Seattle, WA</p>
+            <p className="inner-header-contact-div-2-p">98121</p>
+            <p className="inner-header-contact-div-2-p">M-F (9am - 5pm)</p>
+            <p className="inner-header-contact-div-2-p">Pacific Standard Time (PST)</p>
 
             </div>
             <Map google={this.props.google} initialCenter={{
