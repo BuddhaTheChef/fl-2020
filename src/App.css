@@ -310,7 +310,23 @@ a:visited {
   margin: 0 auto;
 }
 
+.main-home {
+  background-color: white; 
+  height: auto;
+}
+
 @media only screen and (max-width: 767px) {
+
+  .main-home {
+    background-color: white;
+    height: 4000px;
+  }
+
+  .tech-title {
+    font-size: 31px;
+    text-align: center;
+  }
+
   .home-head {
     height: 75vh;
   }
@@ -365,9 +381,130 @@ a:visited {
   line-height: 2;
 }
 
+.main-lower-div {
+  display: flex;
+  padding-top: 138px;
+  flex-wrap: wrap;
+  flex-direction:row;
+  background-color: white;
+  z-index: 3;
+  height: auto;
+}
+
+.home-lower-div-1 {
+  width: 45%;
+  margin: 0px;
+  height: 267px;
+  margin: 10px;
+}
+
+.home-lower-div-2 {
+  width: 45%;
+  margin: 10px;
+  height: 267px;
+}
+
+.home-lower-div-3 {
+    width: 94%;
+    margin: 10px auto;
+    height: 300px;
+}
+
+.home-lower-div-4 {
+  width: 94%;
+    margin: 10px;
+    height: 300px;
+}
+
+.home-lower-div-5 {
+  width: 45%;
+  margin: 10px;
+  height: 267px;
+}
+
+.home-lower-div-6 {
+  width: 45%;
+  margin: 10px;
+  height: 267px;
+}
+
+#main-lower-div-bot {
+  padding-top: 0px !important;
+  padding-bottom: 40px !important;
+}
+
+.home-lower-subdiv {
+  display: flex;
+  background-color: rgb(66, 66, 66);
+  width: 94%;
+  flex-direction: column;
+  margin: 10px auto;
+  height: fit-content;
+}
+.home-lower-inner-div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.tech-logo {
+  width: 38% !important;
+  height: 130px !important;
+  margin: 44px !important;
+}
+
+#tl1 {
+  height: 120px !important;
+  width: 128px !important;
+}
+
+#tl2 {
+  height: 140px !important;
+  width: 112px !important;
 }
 
 
+#tl3 {
+  height: 139px !important;
+}
+
+
+#tl4 {
+  height: 164px !important;
+  width: 168px !important;
+}
+
+
+#tl5 {
+  height: 145px !important;
+  width: 153px !important;
+}
+
+#tl6 {
+  height: 96px !important;
+}
+
+
+#tl7 {
+  height: 122px !important;
+  width: 111px !important;
+}
+
+
+#tl8 {
+  height: 135px !important;
+}
+
+
+#tl9 {
+  height: 130px !important;
+}
+
+
+}
 /* About page  */
 
 .timeline {

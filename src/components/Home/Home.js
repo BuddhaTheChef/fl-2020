@@ -16,7 +16,7 @@ import picome from '../../assets/picome.PNG';
 export default class Home extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "whitesmoke", height: "285vh"}}>
+      <div className="main-home">
         <div className="home-head">
         <div className="home-title">
           <h3 style={{fontSize: '30px'}}>Aj Wietecha II - Freelance Developer</h3>
@@ -34,7 +34,7 @@ export default class Home extends Component {
             </div>
           </section>
         </div>
-        <div style={{backgroundColor: 'white',position:'relative',height:'1800px'}}>
+        <div style={{backgroundColor: 'white',position:'relative',height:'auto'}}>
         <div className="main-lower-div">
         <div className="home-lower-div-1">
           <div className="header-home-div-overlay">
@@ -55,21 +55,21 @@ export default class Home extends Component {
         </div>
         </div>
         <div className="home-lower-subdiv">
-          <h1>Technologies</h1>
+          <h1 className="tech-title">TECH</h1>
           <div className="home-lower-inner-div">
-          <img style={{height:'60px'}} src={Anglogo} alt="angular logo" />
-          <img style={{height:'60px'}} src={Csslogo} alt="CSS logo" />
-          <img style={{height:'60px'}} src={Fblogo} alt="Firebase logo" />
-          <img style={{height:'60px'}} src={Htmlogo} alt="HTML logo" />
-          <img style={{height:'60px'}} src={Jslogo} alt="Javascript logo" />
-          <img style={{height:'60px'}} src={Nodejslogo} alt="Node logo" />
-          <img style={{height:'60px'}} src={Pylogo} alt="Python logo" />
-          <img style={{height:'60px'}} src={Reactlogo} alt="React logo" />
-          <img style={{height:'60px'}} src={Sqlogo} alt="SQL logo" />
+          <img id="tl1" className="tech-logo" style={{height:'60px'}} src={Anglogo} alt="angular logo" />
+          <img id="tl2" className="tech-logo" style={{height:'60px'}} src={Csslogo} alt="CSS logo" />
+          <img id="tl3" className="tech-logo" style={{height:'60px'}} src={Fblogo} alt="Firebase logo" />
+          <img id="tl4" className="tech-logo" style={{height:'60px'}} src={Htmlogo} alt="HTML logo" />
+          <img id="tl5" className="tech-logo" style={{height:'60px'}} src={Jslogo} alt="Javascript logo" />
+          <img id="tl6" className="tech-logo" style={{height:'60px'}} src={Nodejslogo} alt="Node logo" />
+          <img id="tl7" className="tech-logo" style={{height:'60px'}} src={Pylogo} alt="Python logo" />
+          <img id="tl8" className="tech-logo" style={{height:'60px'}} src={Reactlogo} alt="React logo" />
+          <img id="tl9" className="tech-logo" style={{height:'60px'}} src={Sqlogo} alt="SQL logo" />
           </div>
         </div>
 
-        <div className="main-lower-div">
+        <div className="main-lower-div" id="main-lower-div-bot">
         <div className="home-lower-div-4">
         <div className="header-home-div-overlay">
             <h1 style={{paddingLeft:"14px",textAlign: 'left'}}>Full Stack Applications</h1>
