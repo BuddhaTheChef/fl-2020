@@ -9,8 +9,8 @@ export default class Footer extends Component {
           <div className="main-footer-div">
             <div className="footer-sub-div-left">
               <div className="sub-footer-div-1">
-                <h3>Created by <span style={{color:'teal'}}>AJ Wietecha</span></h3>
-                <h6 style={{color:'teal'}}>All rights reserved &#169; Wi-tech 2021</h6>
+                <h3>Created by <span style={{color:'mediumpurple'}}>AJ Wietecha</span></h3>
+                <h6 style={{color:'mediumpurple'}}>All rights reserved &#169; Wi-tech 2021</h6>
               </div>
             </div>
             <div className="sub-footer-div-4">

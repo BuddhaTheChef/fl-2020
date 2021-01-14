@@ -29,9 +29,9 @@ body {
   list-style: none;
   position: fixed;
   width: 100%;
-  background: rgba(0,0,0,0.6);
-  height: 44px;
+  height: 60px;
   justify-content: flex-end;
+  background: rgba(0,0,0,0.2);
   align-items: center;
   z-index: 100000;
   margin-left: auto;
@@ -56,10 +56,13 @@ a:visited {
 .header-link{
   color: whitesmoke !important;
   margin: 0px 50px;
+  text-shadow: 0 0 3px #000000;
 }
 
 .header-link-active {
-  color: teal !important;
+  color:mediumpurple !important;
+  font-weight: 600;
+  text-shadow: 0 0 3px #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -705,9 +708,10 @@ a:visited {
 
 .lower-work-div {
   background-color: whitesmoke;
-  padding: 30px 0px;
+  padding: 75px 0px;
   color: black;
   height: inherit;
+  margin-top: -77px;
 }
 
 .main-work-div {
@@ -897,7 +901,7 @@ figure.effect-romeo:hover p {
   z-index: 10;
   width: 740px;
   height: 100%;
-  background: rgba(66, 66, 66, 0.96);
+  background: rgba(0, 0, 0, 0.85);
   transform: skew(-200.25deg);
   right: -140px;
 }
@@ -907,11 +911,13 @@ figure.effect-romeo:hover p {
   justify-content: center;
   display: flex;
   align-items: center;
-  padding: 50px;
-  height: 70%;
+  padding-left: 100px;
+  height: 90%;
   width: 488px;
-  font-size: 22px;
+  font-size: 17px;
+  font-weight: 100;
   transform: skewX(15deg);
+  text-align: center;
 }
 
 .modal-work-div-subcontent-1 {
@@ -1019,7 +1025,7 @@ figure.effect-romeo:hover p {
 }
 
 .diagonal-box {
-  background-image: linear-gradient(45deg, #6303b1, #ff0099);
+  background-image: linear-gradient(45deg, #7c02e0, #3b0072);
   transform: skewY(-11deg);
   position: relative;
 }
@@ -1042,7 +1048,7 @@ figure.effect-romeo:hover p {
 }
 
 .diagonal-box-rev {
-  background-image: linear-gradient(45deg, #6303b1, #ff0099);
+  background-image: linear-gradient(45deg, #3b0072, #7c02e0);
   transform: skewY(11deg);
   position: relative;
 }
@@ -1336,9 +1342,21 @@ h6 {
     padding: 0px !important;
   }
 
+  .inner-header-contact-p-arecodes {
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+  }
+
   .inner-header-contact-div-2-p {
     font-size: 16px !important; 
     font-weight: lighter;
+  }
+
+  .inner-header-contact-div-2-p-mob {
+    font-size: 16px !important; 
+    font-weight: lighter;
+    display: none;
   }
 
   #head-contact-div2 > #cnt-app {
@@ -1433,6 +1451,10 @@ h6 {
   flex-direction: column;
 }
 
+.inner-header-contact-p-arecodes {
+  text-align: center;
+}
+
 .inner-header-contact-div-2-header {
   padding: 95px;
   font-size: 40px; 
@@ -1440,6 +1462,11 @@ h6 {
 }
 
 .inner-header-contact-div-2-p {
+  font-size: 24px; 
+  font-weight: lighter;
+}
+
+.inner-header-contact-div-2-p-mob {
   font-size: 24px; 
   font-weight: lighter;
 }

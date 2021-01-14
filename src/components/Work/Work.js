@@ -7,14 +7,14 @@ const Modal1 = ({ onRequestClose, ...otherProps }) => (
   <Modal
     isOpen
     onRequestClose={onRequestClose}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" }}}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-1">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>Ohhoney</h1>
-          <h4>| HTML | CSS | SCSS | JavaScript |</h4>
+          <h4 style={{lineHeight: 3}}>| HTML | CSS | SCSS | JavaScript |</h4>
           "Professional website done for podcast website to grow online
           presence."
         </div>
@@ -28,14 +28,14 @@ const Modal2 = ({ onRequestClose, ...otherProps }) => (
     isOpen
     onRequestClose={onRequestClose}
     {...otherProps}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" }}}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-2">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>AM Landscaping LLC</h1>
-          <h4>| Wix | HTML | CSS |</h4>
+          <h4 style={{lineHeight: 3}}>| Wix | HTML | CSS |</h4>
           "Professional website done for Landacping comapny to grow web
           presence."
         </div>
@@ -49,14 +49,14 @@ const Modal3 = ({ onRequestClose, ...otherProps }) => (
     isOpen
     onRequestClose={onRequestClose}
     {...otherProps}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" } }}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-3">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>Tech Chat</h1>
-          <h4>| React.js | Redux | Firebase | CSS | Moment |</h4>
+          <h4 style={{lineHeight: 3}}>| React.js | Redux | Firebase | CSS | Moment |</h4>
           "A spin off discord and slack where you can directly communicate with
           indviduals in your specific field."
         </div>
@@ -70,14 +70,14 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
     isOpen
     onRequestClose={onRequestClose}
     {...otherProps}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" } }}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-4">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>Carlslist</h1>
-          <h4>
+          <h4 style={{lineHeight: 3}}>
             | React | Redux | Node | Express | SQL | Firebase | Javascript | CSS
             |
           </h4>
@@ -95,14 +95,14 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
     isOpen
     onRequestClose={onRequestClose}
     {...otherProps}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" } }}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-5">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>Xposure</h1>
-          <h4>
+          <h4 style={{lineHeight: 3}}>
             | Angular | SQL | Node | Express | HTML5 | CSS | Javascript |
             EventBrite API |
           </h4>
@@ -120,14 +120,14 @@ const Modal6 = ({ onRequestClose, ...otherProps }) => (
     isOpen
     onRequestClose={onRequestClose}
     {...otherProps}
-    style={{ overlay: {}, content: { backgroundColor: "darkorchid" } }}
+    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" } }}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-6">
       <div className="overlay-modal">
         <div className="modal-inside-text">
           <h1>Xplor</h1>
-          <h4>
+          <h4 style={{lineHeight: 3}}>
             | Angular | HTML5 | CSS | Javascript | Yelp API | Google Maps API |
           </h4>
           " A web app used to search by city anywhere in the world and find the

@@ -17,10 +17,12 @@ class Contact extends Component {
             <h3 className="inner-header-contact-div-2-header">
               Working Out Of
             </h3>
+            <div className="inner-header-contact-p-arecodes">
             <p className="inner-header-contact-div-2-p">Seattle, WA</p>
             <p className="inner-header-contact-div-2-p">98121</p>
-            <p className="inner-header-contact-div-2-p">M-F (9am - 5pm)</p>
-            <p className="inner-header-contact-div-2-p">Pacific Standard Time (PST)</p>
+            </div>
+            <p className="inner-header-contact-div-2-p-mob">M-F (9am - 5pm)</p>
+            <p className="inner-header-contact-div-2-p-mob">Pacific Standard Time (PST)</p>
 
             </div>
             <Map google={this.props.google} initialCenter={{
