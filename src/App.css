@@ -706,6 +706,12 @@ a:visited {
   align-items: center;
 }
 
+.header-work-div-title {
+  padding: 95px; 
+  font-size: 200px;
+  text-shadow: 0 0 16px #000000;
+}
+
 .lower-work-div {
   background-color: whitesmoke;
   padding: 75px 0px;
@@ -1089,6 +1095,12 @@ figure.effect-romeo:hover p {
    .header-work-div-overlay {
      justify-content: center;
    }
+
+.header-work-div-title {
+  padding: 95px; 
+  font-size: 45px;
+  text-shadow: 0 0 16px #000000;
+}
   figure, img {
     width: 407px;
   }
@@ -1138,6 +1150,17 @@ figure.effect-romeo:hover p {
   background-size: cover;
 }
 
+#main-div-cons {
+  justify-content: flex-start;
+  height: 65vh;
+}
+
+.main-divs-cons-title {
+  padding: 95px; 
+  font-size: 200px; 
+  text-shadow: 0 0 16px #000000; 
+}
+
 .header-contact-div {
   width: 100%;
   height: 60vh;
@@ -1153,7 +1176,6 @@ figure.effect-romeo:hover p {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .mid-contact-div {
@@ -1164,10 +1186,6 @@ figure.effect-romeo:hover p {
   align-items: center;
   width: 100%;
   display: flex;
-  background-image: url("https://images.unsplash.com/photo-1488197047962-b48492212cda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2247&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .lower-contact-div {
@@ -1190,9 +1208,25 @@ figure.effect-romeo:hover p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(66,66,66);
 }
 
+.form-control {
+  font-family: Roboto;
+  border: 1px solid mediumpurple;
+}
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.btn-primary {
+    color: #fff;
+    background-color: mediumpurple !important;
+    border-color: black;
+  }
 .main-contact-div-lower {
   width: 100%;
   display: flex;
@@ -1206,6 +1240,15 @@ figure.effect-romeo:hover p {
 @media only screen and (max-width: 767px) {
   #contact {
     height: 100px;
+  }
+  #main-div-cons {
+    justify-content: center;
+    height: 65vh;
+  }
+  .main-divs-cons-title {
+    padding: 95px; 
+    font-size: 45px; 
+    text-shadow: 0 0 16px #000000; 
   }
 }
 
@@ -1322,6 +1365,7 @@ h6 {
 
   .goog-map {
     margin-left: -592px;
+    margin-top: -80px;
   }
 
   .goog-map > div {
@@ -1336,7 +1380,7 @@ h6 {
   }
 
   .inner-header-contact-div-2-header {
-    margin-top: -300px !important;
+    margin-top: -349px !important;
     font-size: 25px !important;
     text-align: center !important;
     padding: 0px !important;
@@ -1501,11 +1545,11 @@ hr {
   max-width: 870px;
 }
 
-#map-outline {
+.goog-map > div {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+    0 100px 80px rgba(0, 0, 0, 0.12) !important;
 }
 
 

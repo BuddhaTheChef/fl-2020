@@ -7,8 +7,8 @@ class Contact extends Component {
     return (
       <div>
        <div className="main-contact-div">
-          <div className="header-contact-div">
-            <p style={{ padding: "95px", fontSize: "40px" }}>Contact</p>
+          <div className="header-contact-div" id="main-div-cons">
+            <p className="main-divs-cons-title">Contact</p>
           </div>
         </div>
         <div className="mid-contact-div">
@@ -27,9 +27,9 @@ class Contact extends Component {
             </div>
             <Map google={this.props.google} initialCenter={{
             lat: 47.6180,
-            lng: -122.3483
+            lng: -122.3483,
           }}
-          zoom={13} className="goog-map" style={{width:'50%', height: '50%', margin: 'auto 740px', borderRadius: '20px'}} id="map-outline">
+          zoom={13} disableDefaultUI={true} className="goog-map" style={{width:'50%', height: '50%', margin: 'auto 740px', borderRadius: '20px'}} id="map-outline">
               <Marker onClick={this.onMarkerClick} name={"Current location"} />
 
               <InfoWindow onClose={this.onInfoWindowClose}>
