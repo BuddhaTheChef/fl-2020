@@ -1429,7 +1429,17 @@ h6 {
   .inner-header-contact-div-2 {
     display: flex; 
     width: 100% !important;
-    color: whitesmoke
+    color: whitesmoke;
+    display: flex;
+    width: 38%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    border-radius: 13px;
+    margin-left: 0px !important;
+    background-color: transparent !important;
+    flex-direction: column;
+    box-shadow: none !important;
   }
 
   #contact {
@@ -1494,13 +1504,20 @@ h6 {
 }
 
 .inner-header-contact-div-2 {
-  display: flex; 
-  width: 38%;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 150px;
-  height: inherit;
-  flex-direction: column;
+  display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-left: 80px;
+    height: 486px;
+    background: #3e2f5c;
+    flex-direction: column;
+    text-shadow: 0 0 16px #000000; 
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .inner-header-contact-p-arecodes {
@@ -1508,18 +1525,19 @@ h6 {
 }
 
 .inner-header-contact-div-2-header {
-  padding: 95px;
+  padding: 0px 0px 55px 0px;
   font-size: 40px; 
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left; 
 }
 
 .inner-header-contact-div-2-p {
-  font-size: 24px; 
+  font-size: 20px; 
   font-weight: lighter;
 }
 
 .inner-header-contact-div-2-p-mob {
-  font-size: 24px; 
+  font-size: 20px; 
   font-weight: lighter;
 }
 
