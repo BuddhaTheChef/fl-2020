@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -14,27 +13,31 @@ export default class Footer extends Component {
               </div>
             </div>
             <div className="sub-footer-div-4">
-              <Link
-                to="https://www.google.com"
+              <a
+                href="https://github.com/BuddhaTheChef"
                 id="twit-foot"
-                className="fa fa-twitter"
                 style={{ fontSize: "40px" }}
-              ></Link>
-              <Link
-                to="#"
-                className="fa fa-instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><i className="fa fa-github"></i></a>
+              <a
+                href="https://twitter.com/____a____j____"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ fontSize: "40px" }}
-              ></Link>
-              <Link
-                to="#"
-                className="fa fa-facebook"
+              ><i className="fa fa-twitter"></i></a>
+              <a
+                href="https://www.instagram.com/____a____j____/"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ fontSize: "40px" }}
-              ></Link>
-              <Link
-                to="#"
-                className="fa fa-twitch"
+              ><i className="fa fa-instagram"></i></a>
+              <a
+                href="https://www.twitch.tv/buddhathechef"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ fontSize: "40px" }}
-              ></Link>
+              ><i className="fa fa-twitch"></i></a>
             </div>
           </div>
         </div>

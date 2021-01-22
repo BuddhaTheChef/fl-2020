@@ -15,7 +15,7 @@ class Contact extends Component {
           <div className="header-contact-div-2">
             <div className="inner-header-contact-div-2">
             <h3 className="inner-header-contact-div-2-header">
-              CATCH ME HERE
+              LOCATED IN
             </h3>
             <div className="inner-header-contact-p-arecodes">
             <p className="inner-header-contact-div-2-p">Seattle, WA</p>

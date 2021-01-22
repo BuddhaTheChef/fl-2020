@@ -80,18 +80,17 @@ export default function ContactUs() {
 
         <hr className="hr-contact"/>
         <ul className="social-media-list">
-          <li><a href="https://github.com/BuddhaTheChef" target="_blank" rel="noopener noreferrer" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://github.com/BuddhaTheChef" target="_blank" rel="noopener noreferrer" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://github.com/BuddhaTheChef" target="_blank" rel="noopener noreferrer" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://github.com/BuddhaTheChef" target="_blank" rel="noopener noreferrer" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
-          </li>
+          <a href="https://github.com/BuddhaTheChef" target="_blank" rel="noopener noreferrer" class="contact-icon"><li>
+            <i class="fa fa-github" aria-hidden="true"></i></li></a>
+          
+          <a href="https://twitter.com/____a____j____" target="_blank" rel="noopener noreferrer" class="contact-icon">
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+          
+          <a href="https://www.instagram.com/____a____j____/" target="_blank" rel="noopener noreferrer" class="contact-icon">
+          <li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+          
+          <a href="https://www.linkedin.com/in/ajwietechaii/" target="_blank" rel="noopener noreferrer" class="contact-icon">
+          <li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
         </ul>
         <hr className="hr-contact"/>
 
