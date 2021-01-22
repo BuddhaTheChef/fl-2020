@@ -41,7 +41,7 @@ class Contact extends Component {
         <div className="lower-contact-div">
           <div className="header-contact-div" id="head-contact-div2">
             <a
-              href="https://github.com/BuddhaTheChef"
+              href="https://twitter.com/____a____j____"
               target="_blank"
               id="cnt-app"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ class Contact extends Component {
               <i></i>
             </a>
             <a
-              href="https://github.com/BuddhaTheChef"
+              href="https://www.instagram.com/____a____j____/"
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-instagram"
@@ -71,17 +71,17 @@ class Contact extends Component {
               <i></i>
             </a>
             <a
-              href="https://github.com/BuddhaTheChef"
+              href="https://www.upwork.com/freelancers/~016fc9685c8dfb498c"
               target="_blank"
               rel="noopener noreferrer"
-              class="fa fa-facebook"
+              class="fa fa-keyboard-o"
               id="cnt-app"
               style={{ fontSize: "90px" }}
             >
               <i></i>
             </a>
             <a
-              href="https://github.com/BuddhaTheChef"
+              href="https://www.twitch.tv/buddhathechef"
               target="_blank"
               rel="noopener noreferrer"
               id="cnt-app"
@@ -91,7 +91,7 @@ class Contact extends Component {
               <i></i>
             </a>
             <a
-              href="https://github.com/BuddhaTheChef"
+              href="https://www.linkedin.com/in/ajwietechaii/"
               target="_blank"
               rel="noopener noreferrer"
               id="cnt-app"
