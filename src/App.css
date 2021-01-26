@@ -1144,6 +1144,10 @@ figure.effect-romeo:hover p {
 }
 
 /* Contact Page */
+.upper-wave1 {
+  display: block; 
+  margin-top:-280px;
+}
 
 .main-contact-div {
   width: 100%;
@@ -1202,7 +1206,7 @@ figure.effect-romeo:hover p {
 .lower-contact-div {
   margin-top: -280px;
   color: whitesmoke;
-  height: 76vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1255,14 +1259,25 @@ figure.effect-romeo:hover p {
   }
   #main-div-cons {
     justify-content: center;
-    height: 65vh;
+    height: 100vh;
   }
   .main-divs-cons-title {
     padding: 95px; 
     font-size: 45px; 
     text-shadow: 0 0 16px #000000; 
   }
+
+  .upper-wave1 {
+    margin-top: -92px;
+  }
+  .mid-contact-div {
+    height: 115vh;
+  }
+  .lower-contact-div {
+    margin-top: -91px;
+  }
 }
+
 
 /* footer */
 
@@ -1385,14 +1400,14 @@ h6 {
     inset: 0px !important;
     width: 92% !important;
     height: 61% !important;
-    margin: 226px 0px 0px 610px !important;
+    margin: 160px 0px 0px 610px !important;
     border-radius: 20px !important;
     display: inherit !important;
     overflow: hidden !important;
   }
 
   .inner-header-contact-div-2-header {
-    margin-top: -349px !important;
+    margin-top: -500px !important;
     font-size: 25px !important;
     text-align: center !important;
     padding: 0px !important;
@@ -1420,16 +1435,20 @@ h6 {
   #head-contact-div2 > #cnt-app {
     font-size: 80px !important;
     padding: 23px;
+    margin-top: -187px;
+    height: 71px;
   }
 
   .header-contact-div {
     width: 100%;
     display: inline-flex;
-    height: 60vh;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(90, 2, 86, 0.3);
+    height: 66vh;
+    margin-top: -211px;
+    padding-top: 125px;
   }
 
   .inner-header-contact-div-2 {
