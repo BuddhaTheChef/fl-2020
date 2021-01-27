@@ -1176,7 +1176,7 @@ figure.effect-romeo:hover p {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(90, 2, 86, 0.3);
-  height: 76vh;
+  height: 95vh;
 }
 
 .header-contact-div-2 {
@@ -1271,7 +1271,7 @@ figure.effect-romeo:hover p {
     margin-top: -92px;
   }
   .mid-contact-div {
-    height: 115vh;
+    height: 100vh;
   }
   .lower-contact-div {
     margin-top: -91px;
@@ -1400,14 +1400,14 @@ h6 {
     inset: 0px !important;
     width: 92% !important;
     height: 61% !important;
-    margin: 160px 0px 0px 610px !important;
+    margin: 214px 0px 0px 610px !important;
     border-radius: 20px !important;
     display: inherit !important;
     overflow: hidden !important;
   }
 
   .inner-header-contact-div-2-header {
-    margin-top: -500px !important;
+    margin-top: -400px !important;
     font-size: 25px !important;
     text-align: center !important;
     padding: 0px !important;
