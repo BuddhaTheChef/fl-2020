@@ -696,7 +696,7 @@ a:visited {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("https://images.unsplash.com/photo-1602460070080-987c9843b167?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3290&q=80");
+  background-image: url("./assets/Seattlecity.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1152,7 +1152,7 @@ figure.effect-romeo:hover p {
 .main-contact-div {
   width: 100%;
   display: flex;
-  background-image: url("https://images.unsplash.com/photo-1602460070080-987c9843b167?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3290&q=80");
+  background-image: url("./assets/Seattlecity.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1299,7 +1299,7 @@ figure.effect-romeo:hover p {
 }
 
 .footer-sub-div-left {
-  width: 66%;
+  width: 64%;
   display: flex;
 }
 
@@ -1343,7 +1343,7 @@ h6 {
 .sub-footer-div-4 {
   display: flex;
   align-items: flex-start;
-  width: 33%;
+  width: 20%;
   font-size: 11px;
   justify-content: space-between;
 }

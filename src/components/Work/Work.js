@@ -176,7 +176,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
@@ -217,7 +218,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
@@ -258,7 +260,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
@@ -299,7 +302,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
@@ -340,7 +344,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
@@ -381,7 +386,8 @@ export default class Work extends Component {
                           <Fragment>
                             <div
                               style={{
-                                width: "100%",
+                                width: "101%",
+                                marginLeft: "-1px",
                                 height: "inherit",
                                 backgroundColor: "rgba(0,0,0,0.5)",
                               }}
