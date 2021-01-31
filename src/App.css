@@ -444,7 +444,7 @@ a:visited {
 
 #main-lower-div-bot {
   padding-top: 0px !important;
-  padding-bottom: 40px !important;
+  padding-bottom: 100px !important;
 }
 
 .home-lower-subdiv {
@@ -1027,6 +1027,7 @@ figure.effect-romeo:hover p {
   border: 2px solid #555555;
   width: 90px;
   height: 30px;
+  margin-left: 5px;
   border-radius: 20px;
 }
 
@@ -1135,7 +1136,7 @@ figure.effect-romeo:hover p {
     position: absolute;
     top: 0;
     z-index: 10;
-    width: 75%;
+    width: 55%;
     height: 100%;
     background: rgba(66, 66, 66, 0.96);
     transform: skew(-205.25deg);
@@ -1196,10 +1197,6 @@ figure.effect-romeo:hover p {
   width: 100%;
   display: flex;
   background-color: mediumpurple;
-}
-
-.contact-curvy2 {
-    
 }
 
 
@@ -1385,6 +1382,15 @@ h6 {
   h6 {
     font-size: xx-small;
   }
+
+  .sub-footer-mid-desc {
+    display: none;
+  }
+
+  .sub-footer-div-4 {
+    width: 50%;
+  }
+
   .sub-footer-div-4,
   a {
     font-size: xx-large !important;

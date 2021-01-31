@@ -7,7 +7,7 @@ const Modal1 = ({ onRequestClose, ...otherProps }) => (
   <Modal
     isOpen
     onRequestClose={onRequestClose}
-    style={{ overlay: {}, content: { backgroundColor: "mediumpurple" }}}
+    style={{ overlay: {}, content: { backgroundColor: "transparent", border: "none !important",width: '106%', padding: '20px',marginLeft: '-52px'}}}
   >
     <button className="modalButton" onClick={onRequestClose}>close</button>
     <div className="modal-work-div-subcontent-1">
