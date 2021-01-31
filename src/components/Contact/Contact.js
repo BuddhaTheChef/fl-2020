@@ -41,7 +41,7 @@ class Contact extends Component {
             </Map>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"style={{display: 'block', marginTop:'-20px', backgroundColor:'transparent', transform:'rotateX(180deg)'}}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"style={{display: 'block', marginTop:'-30px', backgroundColor:'transparent', transform:'rotateX(180deg)'}}>
   <path className="contact-curvy2" fill="mediumpurple" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,149.3C672,160,768,224,864,234.7C960,245,1056,203,1152,176C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
 </svg>
         <div className="lower-contact-div">
