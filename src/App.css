@@ -904,6 +904,7 @@ figure.effect-romeo:hover p {
 .ReactModal__Overlay,
 .ReactModal__Overlay--after-open {
   z-index: 400 !important;
+  background: rgba(0,0,0,0.8) !important;
 }
 
 .overlay-modal {
@@ -935,11 +936,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/ohhoney2.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -950,11 +952,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/AMLandscaping.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -965,11 +968,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/techchat1.jpg");
   background-position: top;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -980,11 +984,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/carlslist1.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -995,11 +1000,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/xposure2.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -1010,11 +1016,12 @@ figure.effect-romeo:hover p {
   background-image: url("./assets/xplor2.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 85%;
+  width: 94%;
+  height: 90%;
   position: relative;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 0px;
+  margin-left: 12px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -1272,7 +1279,7 @@ figure.effect-romeo:hover p {
     height: 100vh;
   }
   .lower-contact-div {
-    margin-top: -91px;
+    margin-top: -80px;
   }
 }
 
@@ -1453,8 +1460,8 @@ h6 {
     justify-content: space-around;
     align-items: center;
     background-color: rgba(90, 2, 86, 0.3);
-    height: 66vh;
-    margin-top: -211px;
+    height: 65vh;
+    margin-top: -198px;
     padding-top: 125px;
   }
 
