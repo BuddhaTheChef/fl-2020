@@ -19,7 +19,7 @@ export default class Home extends Component {
       <div className="main-home">
         <div className="home-head">
         <div className="home-title">
-          <h3 style={{fontSize: '30px', marginBottom: '55px'}}>Aj Wietecha II - Freelance Developer</h3>
+          <h3 id="h3-x" style={{fontSize: '30px', marginBottom: '55px'}}>Aj Wietecha II - Freelance Developer</h3>
           <h4>Providing Solutions for Small Businesses, Independent Contractors and Coorperations</h4>
         </div>
           <section id="home">

@@ -65,7 +65,7 @@ a:visited {
   text-shadow: 0 0 3px #000000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .line {
     width: 30px;
     height: 3px;
@@ -138,6 +138,11 @@ a:visited {
   left: 200px;
   text-align: center;
 }
+
+.home-title > h3  {
+  font-size: 33px !important;
+}
+
 
 .home-title h4 {
   font-size: 20px;
@@ -330,14 +335,14 @@ a:visited {
   height: auto;
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 375px) {
   .main-lower-div {
     margin-top: -65px !important;
   }
   .diagonal {
     bottom: -429px !important;
   }
-  .home-title > h3 {
+  #h3-x {
     font-size: 19px !important;
   }
   .home-title > h4 {
@@ -358,7 +363,7 @@ a:visited {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 414px) {
 
   .main-home {
     background-color: white;
@@ -377,7 +382,7 @@ a:visited {
     position: relative;
     width: 172vw;
     height: 195px;
-    bottom: -360px;
+    bottom: -425px;
     right: -79px;
     transform: rotate(-20deg);
     background: white;
@@ -412,7 +417,7 @@ a:visited {
 }
 
 .home-title > h3  {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 .home-title > h4 {
@@ -544,9 +549,14 @@ a:visited {
 #tl9 {
   height: 130px !important;
 }
-
-
 }
+
+@media only screen and (max-width: 375px) {
+  .home-lower-div-4 {
+    margin-top: 72px;
+}
+}
+
 /* About page  */
 
 .timeline {
@@ -586,7 +596,7 @@ a:visited {
   content: "";
   background: rgba(255, 255, 255, 0.07);
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 414px) {
   .timeline:before {
     left: 40px;
   }
@@ -642,7 +652,7 @@ a:visited {
 .timeline-item--active .timeline__content-title {
   margin: -50px 0 20px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 414px) {
   .timeline-item {
     align-self: baseline !important;
     width: 100%;
@@ -1117,7 +1127,7 @@ figure.effect-romeo:hover p {
   height: 500px;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 414px) { 
   .content {
     max-width: fit-content;
     margin: 79px 7px 0px auto;
@@ -1176,6 +1186,15 @@ figure.effect-romeo:hover p {
     background: rgba(66, 66, 66, 0.96);
     transform: skew(-205.25deg);
     right: -140px;
+  }
+}
+
+@media screen and (max-width: 375px) { 
+  .overlay-modal {
+    width: 65%;
+  }
+  .header-work-div-title {
+    padding: 79px; 
   }
 }
 
@@ -1285,7 +1304,7 @@ figure.effect-romeo:hover p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 375px) {
   .lower-contact-div {
     height: 93vh;
   }
@@ -1297,7 +1316,7 @@ figure.effect-romeo:hover p {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 414px) {
   #contact {
     height: 100px;
   }
@@ -1409,7 +1428,7 @@ h6 {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 414px) {
   body {
     overflow-x: hidden !important;
     width: 100% !important;
@@ -1810,7 +1829,7 @@ hr {
 }
 
 /* Begin Media Queries*/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 414px) {
   #contact {
     height: 1000px;
   }
@@ -1882,7 +1901,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 414px) {
   .send-button {
     width: 99%;
   }
