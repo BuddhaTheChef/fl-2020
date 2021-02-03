@@ -330,6 +330,34 @@ a:visited {
   height: auto;
 }
 
+@media only screen and (max-width: 896px) {
+  .main-lower-div {
+    margin-top: -65px !important;
+  }
+  .diagonal {
+    bottom: -429px !important;
+  }
+  .home-title > h3 {
+    font-size: 19px !important;
+  }
+  .home-title > h4 {
+    width: 43% !important;
+    font-size: 14px !important;
+  }
+  .home-lower-div-1 {
+    width: 44% !important;
+  }
+  .home-lower-div-2 {
+    width: 44% !important;
+  }
+  .home-lower-div-5 {
+    width: 44% !important;
+  }
+  .home-lower-div-6 {
+    width: 44% !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
 
   .main-home {
@@ -349,7 +377,7 @@ a:visited {
     position: relative;
     width: 172vw;
     height: 195px;
-    bottom: -427px;
+    bottom: -360px;
     right: -79px;
     transform: rotate(-20deg);
     background: white;
@@ -384,7 +412,7 @@ a:visited {
 }
 
 .home-title > h3  {
-  font-size: 22px !important;
+  font-size: 22px;
 }
 
 .home-title > h4 {
@@ -1256,6 +1284,17 @@ figure.effect-romeo:hover p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width: 896px) {
+  .lower-contact-div {
+    height: 93vh;
+  }
+  .header-contact-div {
+    height: 69vh;
+  }
+  .upper-wave1 {
+    margin-top: -83px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
