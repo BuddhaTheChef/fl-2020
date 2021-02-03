@@ -81,9 +81,7 @@ const Modal4 = ({ onRequestClose, ...otherProps }) => (
             | React | Redux | Node | Express | SQL | Firebase | Javascript | CSS
             |
           </h4>
-          "Essentially this web application is a craigslist redesign but more
-          than that we updated some functionality that craigslist doesn't have,
-          For a more clean modern look."
+          "Essentially this web application is a craigslist redesig. For a more clean modern look."
         </div>
       </div>
     </div>
@@ -103,11 +101,10 @@ const Modal5 = ({ onRequestClose, ...otherProps }) => (
         <div className="modal-inside-text">
           <h1>Xposure</h1>
           <h4 style={{lineHeight: 3}}>
-            | Angular | SQL | Node | Express | HTML5 | CSS | Javascript |
+            | Angular | SQL | Node | Express | Javascript |
             EventBrite API |
           </h4>
-          "A web app used to showcase your talents by setting up events and
-          getting your name around also a good place to find events happening in
+          "A web app used to showcase your talents by setting up events and find events happening in
           your area."
         </div>
       </div>
@@ -131,8 +128,7 @@ const Modal6 = ({ onRequestClose, ...otherProps }) => (
             | Angular | HTML5 | CSS | Javascript | Yelp API | Google Maps API |
           </h4>
           " A web app used to search by city anywhere in the world and find the
-          top attractions and landmarks to visit before you leave ranking from
-          highest to lowest."
+          top places to visit ranking from highest to lowest."
         </div>
       </div>
     </div>
