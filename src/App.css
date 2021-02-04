@@ -205,7 +205,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1539278383962-a7774385fa02?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1234&q=80");
+  background-image: url("./assets/home-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,7 +222,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1234&q=80");
+  background-image: url("./assets/home-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +239,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1577423971199-94abb80bfe06?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1275&q=80");
+  background-image: url("./assets/home-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -257,7 +257,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80");
+  background-image: url("./assets/home-4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +274,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2577&q=80");
+  background-image: url("./assets/home-5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ a:visited {
   height: 500px;
   z-index: 10;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80");
+  background-image: url("./assets/home-6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
