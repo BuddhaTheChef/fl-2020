@@ -335,9 +335,31 @@ a:visited {
   height: auto;
 }
 
+@media screen and (device-width: 411px) and (device-height: 823px) {
+     #home-head-x {
+    height: 66vh;
+  }
+  .diagonal {
+    bottom: -492px;
+  }
+
+}
+
+@media screen and (device-width: 411px) and (device-height: 732px) {
+   #home-head-x {
+    height: 66vh;
+  }
+  .diagonal {
+    bottom: -392px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .main-lower-div {
     margin-top: -65px !important;
+  }
+   #home-head-x {
+    height: 75vh;
   }
   .diagonal {
     bottom: -429px !important;

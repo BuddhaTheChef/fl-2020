@@ -17,7 +17,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="main-home">
-        <div className="home-head">
+        <div className="home-head" id="home-head-x">
         <div className="home-title">
           <h3 id="h3-x" style={{fontSize: '30px', marginBottom: '55px'}}>Aj Wietecha II - Freelance Developer</h3>
           <h4>Providing Solutions for Small Businesses, Independent Contractors and Coorperations</h4>
@@ -35,7 +35,7 @@ export default class Home extends Component {
           </section>
         </div>
         <div style={{backgroundColor: 'white',position:'relative',height:'auto'}}>
-        <div className="main-lower-div">
+        <div className="main-lower-div" id="main-lower-div-x">
         <div className="home-lower-div-1">
           <div className="header-home-div-overlay">
              <h1 style={{paddingLeft:"15px", textAlign: 'left'}}>Ecommerce Websites</h1>
