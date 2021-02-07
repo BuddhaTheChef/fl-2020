@@ -1336,6 +1336,9 @@ figure.effect-romeo:hover p {
   .upper-wave1 {
     margin-top: -83px !important;
   }
+  .send-button {
+    margin-left: 18px !important;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -1585,7 +1588,7 @@ h6 {
 
   .send-button {
     width: 340px !important;
-    margin-left: 30px !important;
+    margin-left: 30px;
     text-align: center !important;
   }
 
