@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/fl-2020/static/css/main.ac8a75e3.chunk.css",
+    "main.js": "/fl-2020/static/js/main.d41e7a89.chunk.js",
+    "main.js.map": "/fl-2020/static/js/main.d41e7a89.chunk.js.map",
+    "runtime-main.js": "/fl-2020/static/js/runtime-main.5a2fb3dc.js",
+    "runtime-main.js.map": "/fl-2020/static/js/runtime-main.5a2fb3dc.js.map",
+    "static/js/2.808d44ad.chunk.js": "/fl-2020/static/js/2.808d44ad.chunk.js",
+    "static/js/2.808d44ad.chunk.js.map": "/fl-2020/static/js/2.808d44ad.chunk.js.map",
+    "index.html": "/fl-2020/index.html",
+    "precache-manifest.995d791fdb2507f3b09017c3327c4a80.js": "/fl-2020/precache-manifest.995d791fdb2507f3b09017c3327c4a80.js",
+    "service-worker.js": "/fl-2020/service-worker.js",
+    "static/css/main.ac8a75e3.chunk.css.map": "/fl-2020/static/css/main.ac8a75e3.chunk.css.map",
+    "static/js/2.808d44ad.chunk.js.LICENSE.txt": "/fl-2020/static/js/2.808d44ad.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/fl-2020/static/media/xposure2.d35e7b55.jpg",
+    "static/media/angular.png": "/fl-2020/static/media/angular.ff389531.png",
+    "static/media/carlslist2.jpg": "/fl-2020/static/media/carlslist2.63a06ae0.jpg",
+    "static/media/css.png": "/fl-2020/static/media/css.c26a73b4.png",
+    "static/media/dm-img.jpg": "/fl-2020/static/media/dm-img.ed815c7c.jpg",
+    "static/media/firebase2.png": "/fl-2020/static/media/firebase2.264b4af3.png",
+    "static/media/nodejs2.png": "/fl-2020/static/media/nodejs2.d1c1e900.png",
+    "static/media/ohhoney1.jpg": "/fl-2020/static/media/ohhoney1.e02dba43.jpg",
+    "static/media/pcsf.jpeg": "/fl-2020/static/media/pcsf.7d3d76ee.jpeg",
+    "static/media/picome.PNG": "/fl-2020/static/media/picome.44ee6c85.PNG",
+    "static/media/seattle.jpeg": "/fl-2020/static/media/seattle.5ee960f7.jpeg",
+    "static/media/t1.jpg": "/fl-2020/static/media/t1.62aae5f7.jpg",
+    "static/media/t2.jpg": "/fl-2020/static/media/t2.e04e1a8d.jpg",
+    "static/media/t3.jpg": "/fl-2020/static/media/t3.0189e8b7.jpg",
+    "static/media/t8.jpg": "/fl-2020/static/media/t8.6a6043d9.jpg",
+    "static/media/witecha.jpg": "/fl-2020/static/media/witecha.4878fdc2.jpg",
+    "static/media/xplor1.jpg": "/fl-2020/static/media/xplor1.d47d7fb5.jpg",
+    "static/media/xposure1.jpg": "/fl-2020/static/media/xposure1.2522ce23.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a2fb3dc.js",
+    "static/js/2.808d44ad.chunk.js",
+    "static/css/main.ac8a75e3.chunk.css",
+    "static/js/main.d41e7a89.chunk.js"
+  ]
+}
