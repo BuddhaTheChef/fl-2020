@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from './App';
 
 ReactDOM.render(
-    <BrowserRouter basename="/fl-2020">
+    <BrowserRouter basename={window.location.pathname || ''}>
     <App />
     </BrowserRouter>,
   document.getElementById('root')
